@@ -1,11 +1,26 @@
 import React from "react";
 import Navbar from "./Navbar";
+import intro from "../assets/videos/intro.mp4";
 
 const Landing = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center pt-[60px] h-dvh border-4 border-black boredr-double text-greens">
-        <div className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] text-center">
+      <div className="flex flex-col items-center justify-center mt-[70px] sborder-4 border-black boredr-double text-whites  relative w-full h-screen overflow-hidden">
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            src={intro}
+            loop
+            autoPlay
+            muted
+            className="w-full h-full object-cover"
+          />
+          {/* Dark overlay for better readability */}
+          <div className="absolute inset-0 bg-black/30"></div>
+        </div>
+
+        {/* Content on top of video */}
+        <div className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] text-center relative z-10">
           <div className="flex flex-col gap-4">
             <h1 className="font-medium text-[25px] sborder-4 ">
               Experience the Elegance & Thrill of Polo & Racing
