@@ -20,6 +20,7 @@ export default {
       colors: {
         whites: "hsl(0, 0%, 100%)", //Added s at the end of every name to avoid clashes
         darkblue: "#062e6f",
+        greens: "#1F3C0C",
       },
     },
   },
