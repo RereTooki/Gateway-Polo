@@ -1,33 +1,180 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/icons/logo.svg";
 import navMenu from "../assets/icons/navMenu.svg";
+import { IoMenu } from "react-icons/io5";
+import { IoClose } from "react-icons/io5";
 
-const Navbar = () => {
+// Define types for props
+type NavigationBarProps = {
+  introRef: React.RefObject<HTMLDivElement>;
+  projectsRef: React.RefObject<HTMLDivElement>;
+  aboutMeRef: React.RefObject<HTMLDivElement>;
+  contactMeRef: React.RefObject<HTMLDivElement>;
+};
+
+const Navbar: React.FC<NavigationBarProps> = ({
+  introRef,
+  projectsRef,
+  aboutMeRef,
+  contactMeRef,
+}) => {
+  const [navIsVisible, setNavIsVisible] = useState(false);
+
+  // Function to scroll to a section
+  const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+      setNavIsVisible(false); // Close the menu after clicking
+    }
+  };
+
   return (
     <>
-      <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50">
-        {" "}
-        <div className="border-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
+      <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer">
+        <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
           <img
             className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
             src={logo}
             alt="background-img"
           />
         </div>
-        <div className="flex justify-between items-center gap-4">
-          <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs">
-            Join Now
+        <div
+          className="w-fit lack lg:hidden sborder-4 flex items-center justify-center"
+          data-aoss="fade-left"
+          data-aos-duration="900"
+        >
+          <button onClick={() => setNavIsVisible(!navIsVisible)}>
+            {!navIsVisible && (
+              <img
+                src={navMenu}
+                alt="A navigation icon"
+                className=" select-none w3-animate-zoom w-full h-full object-cover h-[10vw] md:h-[7vw] max-h-[32px]  dark:hidden"
+              />
+            )}
+            {!navIsVisible && (
+              <IoMenu
+                color="#000"
+                className=" select-none w3-animate-zoom w-full h-full object-cover h-[10vw] md:h-[7vw] max-h-[32px] hidden dark:block relative bottsom-2 xmd:bottom-4s"
+              />
+            )}
+            {navIsVisible && (
+              <IoClose
+                color="#000"
+                className=" select-none w3-animate-zoom w-full h-full object-cover h-[10vw] md:h-[7vw] max-h-[32px] dark:hidden"
+              />
+            )}
+            {navIsVisible && (
+              <IoClose
+                color="#000"
+                className=" select-none w3-animate-zoom w-full h-full object-cover h-[10vw] md:h-[7vw] max-h-[32px] hidden dark:block"
+              />
+            )}
+          </button>
+          {navIsVisible && (
+            <div
+              className="w3-animate-rightNav sbg-white dark:bg-black/70 backdrop-invert lg:hidden absolute top-[23vw] md:top-[80px] right-[4vw] nxl:right-[34px] w-[60vw] md:w-[50vw] max-w-[250px] px-[5%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[20px] rounded-[10px] font-overpass flex flex-col gap-[5px] z-40 bg-white/60 text-white"
+              data-aos="fade-left"
+              data-aos-duration="700"
+            >
+              <div
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                onClick={() => scrollToSection(introRef)}
+              >
+                Home
+              </div>
+              <div
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                onClick={() => scrollToSection(aboutMeRef)}
+              >
+                About Us
+              </div>
+              <div
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                onClick={() => scrollToSection(projectsRef)}
+              >
+                Membership
+              </div>
+              <div
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                onClick={() => scrollToSection(projectsRef)}
+              >
+                Accomodations
+              </div>
+              <div
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                onClick={() => scrollToSection(contactMeRef)}
+              >
+                Contact Us
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="vsm:hidden lg:flex flex-row justify-between items-center  w-[60vw] max-w-[500px]">
+          <div
+            className="hover:underline underline-offset-4 decoration-black dark:decoration-white
+           ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+          >
+            <span onClick={() => scrollToSection(introRef)}>Home</span>
           </div>
-          <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]">
-            <img
-              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
-              src={navMenu}
-              alt="background-img"
-            />
+          <div
+            className="hover:underline underline-offset-4 decoration-black dark:decoration-white
+           ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+          >
+            <span onClick={() => scrollToSection(aboutMeRef)}>About Us</span>
           </div>
+          <div
+            className="hover:underline underline-offset-4 decoration-black dark:decoration-white
+           ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+          >
+            <span onClick={() => scrollToSection(projectsRef)}>Membership</span>
+          </div>
+          <div
+            className="hover:underline underline-offset-4 decoration-black dark:decoration-white
+           ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+          >
+            <span onClick={() => scrollToSection(projectsRef)}>
+              Accomodations
+            </span>
+          </div>
+
+          <div
+            className="hover:underline underline-offset-4 decoration-black dark:decoration-white
+           ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+          >
+            <span onClick={() => scrollToSection(contactMeRef)}>
+              Contact Us
+            </span>
+          </div>
+        </div>
+        <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs hidden lg:block text-white">
+          Join Now
         </div>
       </div>
     </>
+    // <>
+    //   <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50">
+    //     {" "}
+    // <div className="border-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
+    //   <img
+    //     className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+    //     src={logo}
+    //     alt="background-img"
+    //   />
+    // </div>
+    //     <div className="flex justify-between items-center gap-4">
+    // <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs">
+    //   Join Now
+    // </div>
+    //       <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]">
+    //         <img
+    //           className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+    //           src={navMenu}
+    //           alt="background-img"
+    //         />
+    //       </div>
+    //     </div>
+    //   </div>
+    // </>
   );
 };
 

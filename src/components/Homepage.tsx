@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../App.css";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
@@ -10,10 +10,20 @@ import FAQ from "./FAQ";
 import ContactUs from "./ContactUs";
 
 const Homepage = () => {
+  // Create refs for each section
+  const introRef = useRef<HTMLDivElement>(null);
+  const projectsRef = useRef<HTMLDivElement>(null);
+  const aboutMeRef = useRef<HTMLDivElement>(null);
+  const contactMeRef = useRef<HTMLDivElement>(null);
   return (
     <>
       {" "}
-      <Navbar />
+      <Navbar
+        introRef={introRef}
+        projectsRef={projectsRef}
+        aboutMeRef={aboutMeRef}
+        contactMeRef={contactMeRef}
+      />
       <Landing />
       <AboutUs />
       <Experienes />
