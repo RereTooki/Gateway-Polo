@@ -8,10 +8,18 @@ const WhyUs = () => {
   return (
     <>
       <div className="sborder-4 border-black pt-16 flex flex-col items-center px-4 lg:px-10  gap-6 text-greens">
-        <div className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium  lg:text-base text-xs drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2">
+        <div
+          className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium  lg:text-base text-xs drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
           WHY US ?
         </div>
-        <div className="flex gap-4 flex-col">
+        <div
+          className="flex gap-4 flex-col"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
           <div className="sborder-2 font-medium text-xl lg:text-2xl text-center w-full">
             <h2> Why Choose Gateway Racecourse?</h2>
           </div>
@@ -23,7 +31,11 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="mt-2 sborder-4  border-black flex flex-col lg:flex-row lg:gap-4 gap-8 ">
-          <div className="border-2s rounded-[10px] flex flex-col gap-10 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+          <div
+            className="border-2s rounded-[10px] flex flex-col gap-10 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
                 className="w-full h-full lg:object-cover rounded-[10px] xxl:object-fill"
@@ -42,7 +54,11 @@ const WhyUs = () => {
               </p>
             </div>
           </div>
-          <div className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+          <div
+            className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
                 className="w-full h-full lg:object-cover rounded-[10px] xxl:object-fill"
@@ -61,7 +77,11 @@ const WhyUs = () => {
               </p>
             </div>
           </div>{" "}
-          <div className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+          <div
+            className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
                 className="w-full h-full lg:object-cover rounded-[10px] xxl:object-fill"
@@ -81,7 +101,11 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <div className="border-[1px] border-[#B79D52] p-4 mt-16 text-xs rounded-[10px]">
+        <div
+          className="border-[1px] border-[#B79D52] p-4 mt-16 text-xs rounded-[10px]"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           Book Your Visit Now
         </div>
       </div>

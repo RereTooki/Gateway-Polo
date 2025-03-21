@@ -20,7 +20,11 @@ const Landing = () => {
         </div>
 
         {/* Content on top of video */}
-        <div className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] lg:w-[70%] text-center relative z-10">
+        <div
+          className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] lg:w-[70%] text-center relative z-10"
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+        >
           <div className="flex flex-col gap-6 lg:gap-8">
             <div className="flex flex-col lg:gap-2">
               <h1 className="font-medium text-[25px] lg:text-4xl xl:text-6xl lg:sborder-4">

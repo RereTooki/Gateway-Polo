@@ -32,7 +32,11 @@ const Navbar: React.FC<NavigationBarProps> = ({
 
   return (
     <>
-      <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none">
+      <div
+        className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none"
+        data-aos="fade-down"
+        data-aos-duration="1200"
+      >
         <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
           <img
             className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
