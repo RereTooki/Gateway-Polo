@@ -6,7 +6,7 @@ import tick from "../assets/icons/tick.svg";
 const Experiences = () => {
   return (
     <>
-      <div className="sborder-4 border-black pt-12 flex flex-col sitems-center px-4 gap-6">
+      <div className="sborder-4 border-black pt-16 flex flex-col sitems-center px-4 gap-6">
         <div className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2">
           EXPERIENCES
         </div>
