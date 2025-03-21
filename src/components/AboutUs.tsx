@@ -5,7 +5,7 @@ import about2 from "../assets/images/about2.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="border-4 border-black py-16 flex flex-col sitems-center px-4 gap-6">
+      <div className="sborder-4 border-black pt-16 flex flex-col sitems-center px-4 gap-6">
         <div className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2">
           ABOUT
         </div>
@@ -37,7 +37,7 @@ const AboutUs = () => {
             premier hub for leisure, entertainment, and equestrian excellence
           </p>
         </div>
-        <div className="border-[1px] border-[#B79D52] font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-fit">
+        <div className="border-[1px] border-[#B79D52] font-medium text-greens text-xs p-4 rounded-[10px] w-fit">
           Join the Experience
         </div>
       </div>

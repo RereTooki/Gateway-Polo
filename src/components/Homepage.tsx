@@ -3,6 +3,9 @@ import "../App.css";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
 import AboutUs from "./AboutUs";
+import Experienes from "./Experienes";
+import WhyUs from "./WhyUs";
+import ComingSoon from "./ComingSoon";
 
 const Homepage = () => {
   return (
@@ -11,6 +14,9 @@ const Homepage = () => {
       <Navbar />
       <Landing />
       <AboutUs />
+      <Experienes />
+      <WhyUs />
+      <ComingSoon />
     </>
   );
 };

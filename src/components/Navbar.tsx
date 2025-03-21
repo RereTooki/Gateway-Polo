@@ -5,7 +5,7 @@ import navMenu from "../assets/icons/navMenu.svg";
 const Navbar = () => {
   return (
     <>
-      <div className="border-b-2 px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-[99px]">
+      <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50">
         {" "}
         <div className="border-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
           <img

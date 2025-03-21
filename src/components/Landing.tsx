@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const Landing = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center pt-[60px] h-dvh sborder-4 border-black boredr-double text-greens">
+      <div className="flex flex-col items-center justify-center pt-[60px] h-dvh border-4 border-black boredr-double text-greens">
         <div className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] text-center">
           <div className="flex flex-col gap-4">
             <h1 className="font-medium text-[25px] sborder-4 ">
