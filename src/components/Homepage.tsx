@@ -25,7 +25,9 @@ const Homepage = () => {
         contactMeRef={contactMeRef}
       />
       <Landing />
-      <AboutUs />
+      <div ref={aboutMeRef} className="scroll">
+        <AboutUs />
+      </div>
       <Experienes />
       <WhyUs />
       <ComingSoon />

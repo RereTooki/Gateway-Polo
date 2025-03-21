@@ -20,21 +20,26 @@ const Landing = () => {
         </div>
 
         {/* Content on top of video */}
-        <div className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] text-center relative z-10">
-          <div className="flex flex-col gap-4">
-            <h1 className="font-medium text-[25px] sborder-4 ">
-              Experience the Elegance & Thrill of Polo & Racing
-            </h1>
-            <p className="leading-6 text-[13px] tracking-[-0.5px]">
+        <div className=" sborder-4 border-black gap-8 h-fit flex flex-col items-center justify-center  w-[80%] lg:w-[70%] text-center relative z-10">
+          <div className="flex flex-col gap-6 lg:gap-8">
+            <div className="flex flex-col lg:gap-2">
+              <h1 className="font-medium text-[25px] lg:text-4xl xl:text-6xl lg:sborder-4">
+                Experience the Elegance &
+              </h1>
+              <h1 className="font-medium text-[25px] lg:text-4xl xl:text-6xl lg:sborder-4">
+                Thrill of Polo & Racing
+              </h1>
+            </div>
+            <p className="leading-6 text-[13px] lg:text-lg xl:text-2xls tracking-[-0.5px] px-6">
               An exclusive destination where the thrill of horse racing meets
               the grace of polo
             </p>
           </div>
           <div className="flex justify-evenly items-center gap-4 sborder-4 w-full">
-            <div className="w-fit whitespace-nowrap py-[15px] px-[25px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs">
+            <div className="w-fit whitespace-nowrap py-[15px] px-[25px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-10 lg:text-base xl:text-lg">
               Explore Events
             </div>
-            <div className="w-fit whitespace-nowrap py-[15px] px-[25px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs">
+            <div className="w-fit whitespace-nowrap py-[15px] px-[25px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-10 lg:text-base xl:text-l">
               Join the Club
             </div>
           </div>
