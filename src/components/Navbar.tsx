@@ -10,6 +10,7 @@ type NavigationBarProps = {
   projectsRef: React.RefObject<HTMLDivElement>;
   aboutMeRef: React.RefObject<HTMLDivElement>;
   contactMeRef: React.RefObject<HTMLDivElement>;
+  FAQRef: React.RefObject<HTMLDivElement>;
 };
 
 const Navbar: React.FC<NavigationBarProps> = ({
@@ -17,6 +18,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
   projectsRef,
   aboutMeRef,
   contactMeRef,
+  FAQRef,
 }) => {
   const [navIsVisible, setNavIsVisible] = useState(false);
 
@@ -30,7 +32,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
 
   return (
     <>
-      <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer">
+      <div className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none">
         <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
           <img
             className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
@@ -96,9 +98,9 @@ const Navbar: React.FC<NavigationBarProps> = ({
               </div>
               <div
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
-                onClick={() => scrollToSection(projectsRef)}
+                onClick={() => scrollToSection(FAQRef)}
               >
-                Accomodations
+                FAQ
               </div>
               <div
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
@@ -134,9 +136,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
           >
-            <span onClick={() => scrollToSection(projectsRef)}>
-              Accomodations
-            </span>
+            <span onClick={() => scrollToSection(FAQRef)}>FAQ</span>
           </div>
 
           <div

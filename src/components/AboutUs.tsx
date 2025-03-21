@@ -10,8 +10,8 @@ const AboutUs = () => {
           ABOUT
         </div>{" "}
       </div>{" "}
-      <div className="border-4 border-black pb-6 flex flex-col lg:flex-row-reverse  items-center justify-center px-4 gap-6">
-        <div className="border-4 w-full flex relative h-[234px] lg:h-[70vh] lg:w-1/2  items-center">
+      <div className="sborder-4 border-black pb-6 flex flex-col lg:flex-row-reverse  items-center justify-center px-4 lg:px-10 gap-6">
+        <div className="sborder-4 w-full flex relative h-[234px] lg:h-[70vh] lg:w-1/2  items-center">
           {" "}
           <div className="sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[55%] h-[206px] lg:h-[80%] lg:w-[65%] z-10 border-dotted ">
             <img
@@ -28,11 +28,11 @@ const AboutUs = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-6 border-4 border-black lg:w-1/2 ">
-          <div className="border-4 font-medium text-greens text-xl lg:text-2xl">
+        <div className="flex flex-col gap-6 sborder-4 border-black lg:w-1/2 ">
+          <div className="sborder-4 font-medium text-greens text-xl lg:text-2xl">
             <h2>Discover the ultimate Equestrian destination</h2>
           </div>
-          <div className="border-4 font-medium text-greens text-xs tracking-tighter text-justify lg:text-base">
+          <div className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify lg:text-base">
             <p>
               Imagine a destination where the thrill of horse racing meets the
               grace of polo, set against the breathtaking backdrop of lush

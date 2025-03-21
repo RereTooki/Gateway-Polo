@@ -15,6 +15,7 @@ const Homepage = () => {
   const projectsRef = useRef<HTMLDivElement>(null);
   const aboutMeRef = useRef<HTMLDivElement>(null);
   const contactMeRef = useRef<HTMLDivElement>(null);
+  const FAQRef = useRef<HTMLDivElement>(null);
   return (
     <>
       {" "}
@@ -23,6 +24,7 @@ const Homepage = () => {
         projectsRef={projectsRef}
         aboutMeRef={aboutMeRef}
         contactMeRef={contactMeRef}
+        FAQRef={FAQRef}
       />
       <div ref={introRef} className="scroll select-none">
         <Landing />{" "}
@@ -35,7 +37,9 @@ const Homepage = () => {
       </div>
       <WhyUs />
       <ComingSoon />
-      <FAQ />
+      <div ref={FAQRef} className="scroll select-none">
+        <FAQ />{" "}
+      </div>
       <div ref={contactMeRef} className="scroll select-none">
         <ContactUs />{" "}
       </div>

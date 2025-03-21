@@ -20,7 +20,7 @@ const FAQ = () => {
           FAQ
         </div>
         {/* FAQ List */}
-        <div className="flex flex-col items-center gap-4 w-full">
+        <div className="flex flex-col lg:items-center gap-4 w-full">
           {faqItems.map((question, index) => (
             <div
               key={index}
