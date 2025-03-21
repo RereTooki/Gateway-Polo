@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs";
 import Experienes from "./Experienes";
 import WhyUs from "./WhyUs";
 import ComingSoon from "./ComingSoon";
+import FAQ from "./FAQ";
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Experienes />
       <WhyUs />
       <ComingSoon />
+      <FAQ />
     </>
   );
 };

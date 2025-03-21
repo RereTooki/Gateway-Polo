@@ -12,7 +12,7 @@ const WhyUs = () => {
           Why Us
         </div>
         <div className="flex gap-4 flex-col">
-          <div className="sborder-2 font-medium text-xl w-fit text-center">
+          <div className="sborder-2 font-medium text-xl text-center w-full">
             <h2> Why Choose Gateway Racecourse?</h2>
           </div>
           <div className="sborder-2 font-medium text-xs text-center">
@@ -22,8 +22,8 @@ const WhyUs = () => {
             </p>
           </div>
         </div>
-        <div className="mt-2 sborder-4  border-black flex flex-col gap-10 ">
-          <div className="border-2s rounded-[10px] flex flex-col gap-6 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+        <div className="mt-2 sborder-4  border-black flex flex-col gap-8 ">
+          <div className="border-2s rounded-[10px] flex flex-col gap-10 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
                 className="w-full h-full object-covers"
@@ -31,7 +31,7 @@ const WhyUs = () => {
                 alt="A man riding a horse"
               />
             </div>
-            <div className="flex flex-col sborder-4 gap-2 mb-6 px-3">
+            <div className="flex flex-col sborder-4 gap-2 mb-8 px-3">
               <h2 className="text-xl font-semibold"> Thrilling Horse Races</h2>
               <p className="font-medium text-xs tracking-tighter">
                 Experience the adrenaline rush as powerful steeds thunder down
@@ -39,7 +39,7 @@ const WhyUs = () => {
               </p>
             </div>
           </div>
-          <div className="border-2s rounded-[10px] flex flex-col gap-6 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+          <div className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
                 className="w-full h-full object-covers"
@@ -47,7 +47,7 @@ const WhyUs = () => {
                 alt="An artiste"
               />
             </div>
-            <div className="flex flex-col sborder-4 gap-2 mb-6 px-3">
+            <div className="flex flex-col sborder-4 gap-2 mb-8 px-3">
               <h2 className="text-xl font-semibold">
                 {" "}
                 Unmatched VIP Experience
@@ -58,7 +58,7 @@ const WhyUs = () => {
               </p>
             </div>
           </div>{" "}
-          <div className="border-2s rounded-[10px] flex flex-col gap-6 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+          <div className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
                 className="w-full h-full object-covers"
@@ -66,7 +66,7 @@ const WhyUs = () => {
                 alt="Men riding horses"
               />
             </div>
-            <div className="flex flex-col sborder-4 gap-2 mb-6 px-3">
+            <div className="flex flex-col sborder-4 gap-2 mb-8 px-3">
               <h2 className="text-xl font-semibold">
                 {" "}
                 Prestigious Polo Events
