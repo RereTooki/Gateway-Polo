@@ -7,6 +7,7 @@ import Experienes from "./Experienes";
 import WhyUs from "./WhyUs";
 import ComingSoon from "./ComingSoon";
 import FAQ from "./FAQ";
+import ContactUs from "./ContactUs";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
       <WhyUs />
       <ComingSoon />
       <FAQ />
+      <ContactUs />
     </>
   );
 };
