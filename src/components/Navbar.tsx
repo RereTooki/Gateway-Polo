@@ -92,7 +92,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
                 onClick={() => scrollToSection(projectsRef)}
               >
-                Membership
+                Experiences
               </div>
               <div
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
@@ -109,7 +109,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
             </div>
           )}
         </div>
-        <div className="vsm:hidden lg:flex flex-row justify-between items-center  w-[60vw] max-w-[500px]">
+        <div className="vsm:hidden lg:flex flex-row justify-between items-center  w-[60vw] max-w-[500px] lg:text-sm xl:text-base">
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
@@ -126,7 +126,9 @@ const Navbar: React.FC<NavigationBarProps> = ({
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
           >
-            <span onClick={() => scrollToSection(projectsRef)}>Membership</span>
+            <span onClick={() => scrollToSection(projectsRef)}>
+              Experiences
+            </span>
           </div>
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white

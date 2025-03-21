@@ -24,15 +24,21 @@ const Homepage = () => {
         aboutMeRef={aboutMeRef}
         contactMeRef={contactMeRef}
       />
-      <Landing />
-      <div ref={aboutMeRef} className="scroll">
+      <div ref={introRef} className="scroll select-none">
+        <Landing />{" "}
+      </div>
+      <div ref={aboutMeRef} className="scroll select-none">
         <AboutUs />
       </div>
-      <Experienes />
+      <div ref={projectsRef} className="scroll select-none">
+        <Experienes />
+      </div>
       <WhyUs />
       <ComingSoon />
       <FAQ />
-      <ContactUs />
+      <div ref={contactMeRef} className="scroll select-none">
+        <ContactUs />{" "}
+      </div>
     </>
   );
 };

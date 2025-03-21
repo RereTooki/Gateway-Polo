@@ -8,32 +8,35 @@ const WhyUs = () => {
   return (
     <>
       <div className="sborder-4 border-black pt-16 flex flex-col items-center px-4 gap-6 text-greens">
-        <div className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2">
-          Why Us
+        <div className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium  lg:text-base text-xs drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2">
+          WHY US ?
         </div>
         <div className="flex gap-4 flex-col">
-          <div className="sborder-2 font-medium text-xl text-center w-full">
+          <div className="sborder-2 font-medium text-xl lg:text-2xl text-center w-full">
             <h2> Why Choose Gateway Racecourse?</h2>
           </div>
-          <div className="sborder-2 font-medium text-xs text-center">
+          <div className="sborder-2 font-medium text-xs lg:text-lg text-center lg:px-12">
             <p>
               Experience prestige, thrilling events, and world-class hospitality
               like never before
             </p>
           </div>
         </div>
-        <div className="mt-2 sborder-4  border-black flex flex-col gap-8 ">
+        <div className="mt-2 sborder-4  border-black flex flex-col lg:flex-row lg:gap-4 gap-8 ">
           <div className="border-2s rounded-[10px] flex flex-col gap-10 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
-                className="w-full h-full object-covers"
+                className="w-full h-full lg:object-cover rounded-[10px] xxl:object-fill"
                 src={why1}
                 alt="A man riding a horse"
               />
             </div>
-            <div className="flex flex-col sborder-4 gap-2 mb-8 px-3">
-              <h2 className="text-xl font-semibold"> Thrilling Horse Races</h2>
-              <p className="font-medium text-xs tracking-tighter">
+            <div className="flex flex-col sborder-4 gap-2 lg:gap-4 mb-8 px-3">
+              <h2 className="text-xl lg:text-xl xl:text-2xl font-semibold">
+                {" "}
+                Thrilling Horse Races
+              </h2>
+              <p className="font-medium text-xs lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
                 Experience the adrenaline rush as powerful steeds thunder down
                 the track in heart-pounding races!
               </p>
@@ -42,17 +45,17 @@ const WhyUs = () => {
           <div className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
-                className="w-full h-full object-covers"
+                className="w-full h-full lg:object-cover rounded-[10px] xxl:object-fill"
                 src={why2}
                 alt="An artiste"
               />
             </div>
-            <div className="flex flex-col sborder-4 gap-2 mb-8 px-3">
-              <h2 className="text-xl font-semibold">
+            <div className="flex flex-col sborder-4 gap-2 lg:gap-4 mb-8 px-3">
+              <h2 className="text-xl lg:text-xl xl:text-2xl font-semibold">
                 {" "}
                 Unmatched VIP Experience
               </h2>
-              <p className="font-medium text-xs tracking-tighter">
+              <p className="font-medium text-xs lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
                 Indulge in exclusive luxury, premium hospitality, and front-row
                 access to elite equestrian events!
               </p>
@@ -61,17 +64,17 @@ const WhyUs = () => {
           <div className="border-2s rounded-[10px] flex flex-col gap-8 shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
             <div className="sborder-4  h-[290px] border-dotted rounded-[10px] ">
               <img
-                className="w-full h-full object-covers"
+                className="w-full h-full lg:object-cover rounded-[10px] xxl:object-fill"
                 src={why3}
                 alt="Men riding horses"
               />
             </div>
-            <div className="flex flex-col sborder-4 gap-2 mb-8 px-3">
-              <h2 className="text-xl font-semibold">
+            <div className="flex flex-col sborder-4 gap-2 lg:gap-4 mb-8 px-3">
+              <h2 className="text-xl lg:text-xl xl:text-2xl font-semibold">
                 {" "}
                 Prestigious Polo Events
               </h2>
-              <p className="font-medium text-xs tracking-tighter">
+              <p className="font-medium text-xs lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
                 Witness the elegance and intensity of world-class polo in a
                 setting of pure prestige.
               </p>
