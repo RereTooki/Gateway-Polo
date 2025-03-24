@@ -49,7 +49,7 @@ const Landing = () => {
               Explore Events
             </div>
             <div className="w-fit whitespace-nowrap py-[15px] lg:py-4 px-[18px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-8 xl:px-10 lg:text-sm xl:text-lg w-1/2 max-w-[152px] lg:max-w-none lg:w-auto w3-animate-zoom">
-              <Link to="/joinUs">Join ThE Club</Link>
+              <Link to="/joinUs">Join The Club</Link>
             </div>
           </div>
         </div>

@@ -160,7 +160,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
           </div>
         </div>
         <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs hidden lg:block text-white animate-pulse">
-          Join Now
+          <Link to="/joinUs">Join Now</Link>
         </div>
       </div>
     </>
