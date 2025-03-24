@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/icons/logo.svg";
 import {
   FaPhone,
   FaEnvelope,
@@ -18,39 +19,79 @@ const ContactUs = () => {
   ];
   return (
     <>
-      <div className="sborder-4 border-black pt-16 flex flex-col items-center px-4 gap-6 text-greens text-center ">
+      <div className="sborder-4  border-double border-black pt-24 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16">
         {" "}
         {/* Header */}
-        <h2 className="text-lg font-semibold text-greens lg:text-xl xl:text-2xl">
-          Contact Us
-        </h2>
-        {/* Contact Details */}
-        <div className="flex flex-col lg:flex-row gap-4">
-          {contactInfo.map((item, index) => (
-            <div key={index} className="flex items-center gap-2 text-gray-700">
-              <span className="text-lg text-[#B79D52]">{item.icon}</span>
-              <span className="text-sm">{item.text}</span>
-            </div>
-          ))}
+        <div className="sborder-4 flex flex-col gap-4 w-full md:w-[80%] border-black lg:mb-24 items-center lg:w-fit">
+          <h2 className="text-xl font-semibold text-greens lg:text-2xl xl:text-3xl mb-2">
+            Contact Us
+          </h2>
+          {/* Contact Details */}
+          <div className="flex flex-col lg:flex-rows gap-4">
+            {contactInfo.map((item, index) => (
+              <div
+                key={index}
+                className="flex items-center gap-2 text-gray-700"
+              >
+                <span className="text-lg text-[#B79D52]">{item.icon}</span>
+                <span className="text-sm">{item.text}</span>
+              </div>
+            ))}
+          </div>
         </div>
         {/* Social Media Icons */}
-        <div className="flex gap-6 text-[#B79D52] text-xl">
-          <FaInstagram />
-          <FaLinkedin />
-          <FaTwitter />
-          <FaFacebook />
+        <div className="sborder-2 border-black lg:mb-16 w-full lg:w-fit md:w-[80%] flex flex-col gap-4">
+          <div className="sborder-4 flex flex-col gap-4 items-centser ">
+            <div className="flex gap-6 text-[#B79D52] text-xl self-center">
+              <FaInstagram
+                color="#fff"
+                className="p-2 h-10 w-10 bg-[#B79D52] rounded-full"
+              />
+              <FaLinkedin
+                color="#fff"
+                className="p-2 h-10 w-10 bg-[#B79D52] rounded-full"
+              />
+              <FaTwitter
+                color="#fff"
+                className="p-2 h-10 w-10 bg-[#B79D52] rounded-full"
+              />
+              <FaFacebook
+                color="#fff"
+                className="p-2 h-10 w-10 bg-[#B79D52] rounded-full"
+              />
+            </div>
+            {/* Reservation Button */}
+            <button className="flex items-center gap-2 border-[1px] border-[#B79D52] px-6 py-3 rounded-md text-sm text-greens w-fit self-center">
+              📅 Reserve a piece of Nature
+            </button>
+            <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-24 h-24 self-center lg:hidden">
+              <img
+                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+                src={logo}
+                alt="background-img"
+              />
+            </div>
+          </div>
+          {/* Footer */}
+          <div className="text-xs text-gray-500 mt-6 mb-14 lg:mb-0 lg:mt-0">
+            <p>Nigeria’s most desirable Country Home</p>
+            <p>© 2025 Gateway Lagos | Powered by LandWey</p>
+          </div>
         </div>
-        {/* Reservation Button */}
-        <button className="flex items-center gap-2 border-[1px] border-[#B79D52] px-6 py-3 rounded-md text-sm text-greens">
-          📅 Reserve a piece of Nature
-        </button>
-        {/* Footer */}
-        <div className="text-xs text-gray-500 mt-6">
-          <p>Nigeria’s most desirable Country Home</p>
-          <p>© 2025 Gateway Lagos | Powered by LandWey</p>
+        <div className="lg:w-fit sborder-2">
+          <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-48  h-36 self-center hidden lg:block">
+            <img
+              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+              src={logo}
+              alt="background-img"
+            />
+          </div>
+          <p className="text-xs text-[#B79D52]">
+            GATEWAY POLO CLUB & RACECOURSE
+          </p>
         </div>
         {/* Chat Support Button */}
-        <button className="flex items-center gap-2 px-4 py-2 border rounded-md text-xs text-greens border-[#B79D52] mt-4">
+        <button className="flex items-center gap-2 px-4 py-2 border rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4">
           Instant chat support to get started{" "}
           <FaWhatsapp className="text-green-600 text-lg" />
         </button>
