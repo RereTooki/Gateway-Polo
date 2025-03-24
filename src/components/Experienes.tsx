@@ -15,11 +15,11 @@ const Experiences = () => {
           EXPERIENCES
         </div>{" "}
       </div>{" "}
-      <div className="Sborder-4 border-black pb-6 lg:pb-0 flex flex-col lg:flex-row  items-center justify-center px-4 lg:px-10 gap-8 lg:gap-6">
+      <div className="sborder-4 border-black pb-6 lg:pb-0 flex flex-col lg:flex-row  items-center justify-center px-4 lg:px-10 gap-8 lg:gap-6">
         <div className="Sborder-4 w-full flex relative h-[60vw] max-h-[60vh] lg:max-h-none lg:h-[70vh]     lg:w-1/2  items-center max-w-[500px] lg:max-w-none  select-none">
           {" "}
           <div
-            className="Sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[65%] h-[206px]s max-w-[200px]s lg:max-w-none h-[80%] lg:w-[65%] z-10 border-dotted "
+            className="Sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[60%] h-[206px]s max-w-[200px]s lg:max-w-none h-[70%] lg:w-[65%] z-10 border-dotted "
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -43,7 +43,7 @@ const Experiences = () => {
         </div>
         <div className="flex flex-col gap-6 tab:px-4 sborder-4 border-black lg:w-1/2 selection:text-white selection:bg-black/80 ">
           <div
-            className="sborder-4 font-medium text-greens text-xl tab:text-2xl"
+            className="sborder-4 font-medium text-greens text-xl tab:text-2xl xl:text-3xl"
             data-aos="fade-left"
             data-aos-duration="1200"
           >
@@ -53,7 +53,7 @@ const Experiences = () => {
             </h2>
           </div>
           <div
-            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base"
+            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base xl:text-lg"
             data-aos="fade-left"
             data-aos-duration="1200"
           >
@@ -68,62 +68,70 @@ const Experiences = () => {
               journey begins here.
             </p>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 ">
             <div
-              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
+              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
               data-aos="fade-down"
               data-aos-duration="1200"
             >
-              <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
+              <div className="sborder-2 h-fit  w-[24px] h-[24px]">
                 <img
                   className="w-full h-full object-covers"
                   src={tick}
                   alt="background-img"
                 />
               </div>
-              <p className="sborder-2">Premier Equestrian Events</p>
+              <p className="sborder-2 lg:text-sm xsl:text-[15px]">
+                Premier Equestrian Events
+              </p>
             </div>
             <div
-              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
+              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
               data-aos="fade-down"
               data-aos-duration="1200"
             >
-              <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
+              <div className="sborder-2 h-fit  w-[24px] h-[24px]">
                 <img
                   className="w-full h-full object-covers"
                   src={tick}
                   alt="background-img"
                 />
               </div>
-              <p className="sborder-2">Luxury & Comfort</p>
+              <p className="sborder-2 lg:text-sm xsl:text-[15px]">
+                Luxury & Comfort
+              </p>
             </div>
             <div
-              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
+              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
               data-aos="fade-down"
               data-aos-duration="1200"
             >
-              <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
+              <div className="sborder-2 h-fit  w-[24px] h-[24px]">
                 <img
                   className="w-full h-full object-covers"
                   src={tick}
                   alt="background-img"
                 />
               </div>
-              <p className="sborder-2">Upscale dining setting</p>
+              <p className="sborder-2 lg:text-sm xsl:text-[15px]">
+                Upscale dining setting
+              </p>
             </div>
             <div
-              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
+              className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
               data-aos="fade-down"
               data-aos-duration="1200"
             >
-              <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
+              <div className="sborder-2 h-fit  w-[24px] h-[24px]">
                 <img
                   className="w-full h-full object-covers"
                   src={tick}
                   alt="background-img"
                 />
               </div>
-              <p className="sborder-2">Fine Dining & Hospitality</p>
+              <p className="sborder-2 lg:text-sm xsl:text-[15px]">
+                Fine Dining & Hospitality
+              </p>
             </div>
           </div>
         </div>

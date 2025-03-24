@@ -12,7 +12,7 @@ const ComingSoon = () => {
       >
         <div className="sborder-4 bg-greens w-full px-8 py-12 text-white flex flex-col items-center justify-center gap-6">
           <div className="sborder-2 flex flex-col items-center gap-6 text-center ">
-            <h3 className="text-xl lg:text-2xl xl:text-3xl font-medium">
+            <h3 className="text-xl tab:text-2xl xl:text-3xl font-medium">
               Our Application is Coming Soon
             </h3>
             <p className="text-xs font-medium lg:text-sm lg:w-[70%]">

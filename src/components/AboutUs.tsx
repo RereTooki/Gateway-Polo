@@ -18,7 +18,7 @@ const AboutUs = () => {
         <div className="Sborder-4 w-full flex relative h-[60vw] max-h-[60vh] lg:max-h-none lg:h-[70vh]     lg:w-1/2  items-center max-w-[500px] lg:max-w-none  select-none">
           {" "}
           <div
-            className="Sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[65%] h-[206px]s max-w-[200px]s lg:max-w-none h-[80%] lg:w-[65%] z-10 border-dotted "
+            className="Sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[60%] h-[206px]s max-w-[200px]s lg:max-w-none h-[70%] lg:w-[65%] z-10 border-dotted "
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -36,20 +36,20 @@ const AboutUs = () => {
             <img
               className="w-full h-full object-covers"
               src={about2}
-              alt="background-img"
+              alt="A man riding a horse"
             />
           </div>
         </div>
         <div className="flex flex-col gap-6 tab:px-4 sborder-4 border-black lg:w-1/2 selection:text-white selection:bg-black/80 ">
           <div
-            className="sborder-4 font-medium text-greens text-xl tab:text-2xl"
+            className="sborder-4 font-medium text-greens text-xl tab:text-2xl xl:text-3xl"
             data-aos="fade-right"
             data-aos-duration="1200"
           >
             <h2>Discover The Ultimate Equestrian Destination</h2>
           </div>
           <div
-            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base"
+            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base xl:text-lg"
             data-aos="fade-right"
             data-aos-duration="1200"
           >
@@ -62,7 +62,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div
-            className="border-[1px] border-[#B79D52] font-medium text-greens text-xs p-4 rounded-[10px] w-fit tab:text-sm lg:text-base sanimate-pulse self-center"
+            className="border-[1px] border-[#B79D52] font-medium text-greens text-xs p-4 rounded-[10px] w-fit tab:text-sm  sanimate-pulse self-center transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
             data-aos="zoom-in"
             data-aos-duration="1200"
           >
