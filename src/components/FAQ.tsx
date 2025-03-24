@@ -19,7 +19,7 @@ const FAQ = () => {
         <div
           className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs lg:text-base drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2"
           data-aos="fade-donwn"
-          data-aos-duration="1200"
+          data-aos-duration="1900"
         >
           FAQ
         </div>
@@ -30,7 +30,7 @@ const FAQ = () => {
               key={index}
               className="flex justify-between items-center border-[1px] border-[#B79D52] rounded-lg px-4 py-3 shadow-lg  bg-white gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] lg:w-[80%]"
               data-aos="fade-up"
-              data-aos-duration="1200"
+              data-aos-duration="1900"
             >
               <span className="text-sm xl:text-base">{question}</span>
               <span className="text-xl font-bold text-[#B79D52]">+</span>
@@ -41,7 +41,7 @@ const FAQ = () => {
       <div
         className="sborder-2 pt-16 h-dvh"
         data-aos="zoom-in"
-        data-aos-duration="1200"
+        data-aos-duration="1900"
       >
         <img
           className="w-full h-full object-cover drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"

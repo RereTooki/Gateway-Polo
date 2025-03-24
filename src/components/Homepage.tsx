@@ -19,15 +19,19 @@ const Homepage = () => {
   return (
     <>
       {" "}
-      <Navbar
-        introRef={introRef}
-        projectsRef={projectsRef}
-        aboutMeRef={aboutMeRef}
-        contactMeRef={contactMeRef}
-        FAQRef={FAQRef}
-      />
-      <div ref={introRef} className="scroll select-none">
-        <Landing />{" "}
+      <div className="h-dvh sborder-4 border-black border-dotted overflow-hidden">
+        <div>
+          <Navbar
+            introRef={introRef}
+            projectsRef={projectsRef}
+            aboutMeRef={aboutMeRef}
+            contactMeRef={contactMeRef}
+            FAQRef={FAQRef}
+          />
+        </div>
+        <div ref={introRef} className="scroll select-none h-full">
+          <Landing />{" "}
+        </div>
       </div>
       <div ref={aboutMeRef} className="scroll select-none">
         <AboutUs />

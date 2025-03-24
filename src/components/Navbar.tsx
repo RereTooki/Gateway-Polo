@@ -33,9 +33,9 @@ const Navbar: React.FC<NavigationBarProps> = ({
   return (
     <>
       <div
-        className="border-b-[1px] px-4 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none"
+        className="border-b-[1px] px-4 lg:px-6 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none"
         data-aos="fade-down"
-        data-aos-duration="1200"
+        data-aos-duration="1900"
       >
         <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
           <img
@@ -54,13 +54,13 @@ const Navbar: React.FC<NavigationBarProps> = ({
               <img
                 src={navMenu}
                 alt="A navigation icon"
-                className=" select-none w3-animate-zoom w-full h-full object-cover h-[10vw] md:h-[7vw] max-h-[32px]  dark:hidden"
+                className=" select-none w3-animate-zoom w-full object-cover sborder-2 h-[15vw] md:h-[7vw] max-h-[32px]  dark:hidden"
               />
             )}
             {!navIsVisible && (
               <IoMenu
                 color="#000"
-                className=" select-none w3-animate-zoom w-full h-full object-cover h-[10vw] md:h-[7vw] max-h-[32px] hidden dark:block relative bottsom-2 xmd:bottom-4s"
+                className=" select-none w3-animate-zoom w-full object-cover sborder-2 h-[15vw] md:h-[7vw] max-h-[32px] hidden dark:block relative bottsom-2 xmd:bottom-4s"
               />
             )}
             {navIsVisible && (
@@ -152,7 +152,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
             </span>
           </div>
         </div>
-        <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs hidden lg:block text-white">
+        <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs hidden lg:block text-white animate-pulse">
           Join Now
         </div>
       </div>
