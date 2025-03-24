@@ -1,8 +1,14 @@
 import React from "react";
 import intro from "../assets/videos/intro.mp4";
 import { FaWhatsapp } from "react-icons/fa";
+import logo from "../assets/icons/logo.svg";
 
 const Coming = () => {
+  const phoneNumber = "+2348026268181"; // Replace with the recipient's phone number
+  const message = encodeURIComponent(
+    "Hello Gateway Polo, I'll love to join you!"
+  ); // Encode message
+
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
@@ -32,6 +38,13 @@ const Coming = () => {
           Instant chat support to get started{" "}
           <FaWhatsapp className="text-green-600 text-lg" />
         </button>
+        <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] fixed top-4 w-24 h-24 lg:w-36 lg:h-36">
+          <img
+            className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+            src={logo}
+            alt="background-img"
+          />
+        </div>
       </div>{" "}
     </>
   );

@@ -20,7 +20,7 @@ const ContactUs = () => {
 
   const phoneNumber = "+2348026268181"; // Replace with the recipient's phone number
   const message = encodeURIComponent(
-    "Hello Rere, I'm interested in a collaboration!"
+    "Hello Gateway Polo, I'll love to join you!"
   ); // Encode message
 
   const handleWhatsAppClick = () => {
