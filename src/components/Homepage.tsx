@@ -33,10 +33,10 @@ const Homepage = () => {
           <Landing />{" "}
         </div>
       </div>
-      <div ref={aboutMeRef} className="scroll select-none">
+      <div ref={aboutMeRef} className="scroll ">
         <AboutUs />
       </div>
-      <div ref={projectsRef} className="scroll select-none">
+      <div ref={projectsRef} className="scroll ">
         <Experienes />
       </div>
       <WhyUs />
