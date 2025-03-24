@@ -12,6 +12,21 @@ import {
 } from "react-icons/fa";
 
 const ContactUs = () => {
+  const email = "Info@gatewaypolo.ng"; // Replace with the recipient's email address
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`;
+  };
+
+  const phoneNumber = "+2348026268181"; // Replace with the recipient's phone number
+  const message = encodeURIComponent(
+    "Hello Rere, I'm interested in a collaboration!"
+  ); // Encode message
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+  };
+
   const contactInfo = [
     { icon: <FaPhone />, text: "+234 802 626 8181" },
     { icon: <FaEnvelope />, text: "Info@gatewaypolo.ng" },
@@ -64,12 +79,15 @@ const ContactUs = () => {
             <button className="flex items-center gap-2 border-[1px] border-[#B79D52] px-6 py-3 rounded-md text-sm text-greens w-fit self-center">
               📅 Reserve a piece of Nature
             </button>
-            <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-24 h-24 self-center lg:hidden">
+            <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-full lg:w-24 h-24 self-center lg:hidden">
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
                 src={logo}
                 alt="background-img"
               />
+              <p className="text-xs text-[#B79D52] whitespace-nowrap text-center self-center">
+                GATEWAY POLO CLUB & RACECOURSE
+              </p>
             </div>
           </div>
           {/* Footer */}
@@ -78,8 +96,8 @@ const ContactUs = () => {
             <p>© 2025 Gateway Lagos | Powered by LandWey</p>
           </div>
         </div>
-        <div className="lg:w-fit sborder-2">
-          <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-48  h-36 self-center hidden lg:block">
+        <div className="lg:w-fit sborder-2 hidden lg:block">
+          <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-48  h-36 self-center ">
             <img
               className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
               src={logo}
@@ -91,7 +109,10 @@ const ContactUs = () => {
           </p>
         </div>
         {/* Chat Support Button */}
-        <button className="flex items-center gap-2 px-4 py-2 border rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4">
+        <button
+          className="flex items-center gap-2 px-4 py-2 border rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4"
+          onClick={handleWhatsAppClick}
+        >
           Instant chat support to get started{" "}
           <FaWhatsapp className="text-green-600 text-lg" />
         </button>

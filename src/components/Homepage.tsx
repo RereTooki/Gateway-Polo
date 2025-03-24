@@ -36,7 +36,7 @@ const Homepage = () => {
       <div ref={aboutMeRef} className="scroll ">
         <AboutUs />
       </div>
-      <div ref={projectsRef} className="scroll ">
+      <div ref={projectsRef} className="scroll overflow-x-hidden ">
         <Experienes />
       </div>
       <WhyUs />
