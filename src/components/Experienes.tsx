@@ -6,21 +6,21 @@ import tick from "../assets/icons/tick.svg";
 const Experiences = () => {
   return (
     <>
-      <div className="sborder-4 border-black pt-16 pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6">
+      <div className="sborder-4 border-black pt-16 pb-10 lg:pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6">
         <div
-          className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs lg:text-base drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2 "
+          className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs lg:text-base drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mbs-2 "
           data-aos="fade-down"
           data-aos-duration="1200"
         >
           EXPERIENCES
         </div>{" "}
       </div>{" "}
-      <div className="sborder-4 border-black pb-6 flex flex-col lg:flex-row  items-center justify-center px-4  lg:px-10 gap-6">
-        <div className="sborder-4 w-full flex relative h-[234px] lg:h-[70vh] lg:w-1/2 items-center">
+      <div className="Sborder-4 border-black pb-6 lg:pb-0 flex flex-col lg:flex-row  items-center justify-center px-4 lg:px-10 gap-8 lg:gap-6">
+        <div className="Sborder-4 w-full flex relative h-[60vw] max-h-[60vh] lg:max-h-none lg:h-[70vh]     lg:w-1/2  items-center max-w-[500px] lg:max-w-none">
           {" "}
           <div
-            className="sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[55%] h-[206px] lg:h-[80%] lg:w-[65%] max-w-[200px] lg:max-w-none z-10 border-dotted "
-            data-aos="fade-down"
+            className="Sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[65%] h-[206px]s max-w-[200px]s lg:max-w-none h-[80%] lg:w-[65%] z-10 border-dotted "
+            data-aos="fade-up"
             data-aos-duration="1200"
           >
             <img
@@ -30,8 +30,8 @@ const Experiences = () => {
             />
           </div>
           <div
-            className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[70%] scal h-[234px] lg:w-[80%] lg:h-[70vh] max-w-[200px] lg:max-w-none sright-8 border-black absolute right-0"
-            data-aos="fade-down"
+            className="Sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[70%] max-w-[280px]s lg:max-w-none scal h-full lg:w-[80%] lg:h-[70vh] sright-8 border-black absolute right-0"
+            data-aos="fade-up"
             data-aos-duration="1200"
           >
             <img
@@ -41,20 +41,20 @@ const Experiences = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-6 sborder-4 border-black lg:w-1/2 ">
+        <div className="flex flex-col gap-6 tab:px-4 sborder-4 border-black lg:w-1/2 ">
           <div
-            className="sborder-4 font-medium text-greens text-xl lg:text-2xl"
+            className="sborder-4 font-medium text-greens text-xl tab:text-2xl"
             data-aos="fade-right"
             data-aos-duration="1200"
           >
             <h2>
-              Where passion meets precision: Welcome to Gateway Polo and
+              where passion meets precision:<br></br>Welcome to Gateway Polo and
               Racecourse
             </h2>
           </div>
           <div
-            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify lg:text-base"
-            data-aos="fade-left"
+            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base"
+            data-aos="fade-right"
             data-aos-duration="1200"
           >
             <p>
