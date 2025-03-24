@@ -3,6 +3,7 @@ import logo from "../assets/icons/logo.svg";
 import navMenu from "../assets/icons/navMenu.svg";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 // Define types for props
 type NavigationBarProps = {
@@ -32,12 +33,12 @@ const Navbar: React.FC<NavigationBarProps> = ({
 
   return (
     <>
-      <div
-        className="border-b-[1px] px-4 lg:px-6 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none"
-        data-aos="fade-down"
-        data-aos-duration="1200"
-      >
-        <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
+      <div className="border-b-[1px] px-4 lg:px-6 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none">
+        <div
+          className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
           <img
             className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
             src={logo}
@@ -47,7 +48,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
         <div
           className="w-fit lack lg:hidden sborder-4 flex items-center justify-center"
           data-aos="fade-left"
-          data-aos-duration="900"
+          data-aos-duration="1200"
         >
           <button onClick={() => setNavIsVisible(!navIsVisible)}>
             {!navIsVisible && (
@@ -111,6 +112,12 @@ const Navbar: React.FC<NavigationBarProps> = ({
                 onClick={() => scrollToSection(contactMeRef)}
               >
                 Contact Us
+              </div>
+              <div
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                onClick={() => scrollToSection(contactMeRef)}
+              >
+                <Link to="/joinUs">Join Us</Link>
               </div>
             </div>
           )}

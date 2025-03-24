@@ -40,7 +40,7 @@ const FAQ = () => {
       </div>
       <div
         className="sborder-2 pt-16 h-dvh"
-        data-aos="zoom-in"
+        data-aos="fade-up"
         data-aos-duration="1200"
       >
         <img
