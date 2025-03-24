@@ -24,7 +24,7 @@ const Landing = () => {
           <div className="flex flex-col gap-6 lg:gap-8">
             <div className="flex flex-col lg:gap-2">
               <h1
-                className="font-medium text-[40px] leading-[50px] tab:text-3xl lg:text-4xl xl:text-6xl lg:leading-[45px] xl:leading-[70px]  lg:sborder-4"
+                className="font-medium text-[35px] leading-[45px] tab:text-3xl lg:text-4xl xl:text-6xl lg:leading-[45px] xl:leading-[70px]  lg:sborder-4"
                 data-aos="zoom-in"
                 data-aos-duration="1200"
               >
