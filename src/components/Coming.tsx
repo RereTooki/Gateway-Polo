@@ -32,7 +32,7 @@ const Coming = () => {
           <h4 className="text-lg mt-4">Coming Soon</h4>
         </div>
         <button
-          className="flex items-center gap-2 px-4 py-2 rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4 animate-pulses backdrop-blur-md backdrop-invert text-greens mix-blend-differences bg-white/50 z-40 lg:right-4"
+          className="flex items-center gap-2 px-4 py-2 rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4 animate-pulses backdrop-blur-md backdrop-invert text-greens mix-blend-differences bg-white/50 z-40 lg:right-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
           onClick={handleWhatsAppClick}
         >
           Instant chat support to get started{" "}
