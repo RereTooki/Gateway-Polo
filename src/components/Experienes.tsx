@@ -9,8 +9,8 @@ const Experiences = () => {
       <div className="sborder-4 border-black pt-16 pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6">
         <div
           className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs lg:text-base drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mb-2 "
-          data-aos="fade-down"
-          data-aos-duration="1900"
+          data-aoss="fade-down"
+          data-aos-duration="1200"
         >
           EXPERIENCES
         </div>{" "}
@@ -20,8 +20,8 @@ const Experiences = () => {
           {" "}
           <div
             className="sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[55%] h-[206px] lg:h-[80%] lg:w-[65%] max-w-[200px] lg:max-w-none z-10 border-dotted "
-            data-aos="fade-down"
-            data-aos-duration="1900"
+            data-aoss="fade-down"
+            data-aos-duration="1200"
           >
             <img
               className="w-full h-full object-covers"
@@ -31,8 +31,8 @@ const Experiences = () => {
           </div>
           <div
             className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[70%] scal h-[234px] lg:w-[80%] lg:h-[70vh] max-w-[200px] lg:max-w-none sright-8 border-black absolute right-0"
-            data-aos="fade-down"
-            data-aos-duration="1900"
+            data-aoss="fade-down"
+            data-aos-duration="1200"
           >
             <img
               className="w-full h-full object-covers"
@@ -44,8 +44,8 @@ const Experiences = () => {
         <div className="flex flex-col gap-6 sborder-4 border-black lg:w-1/2 ">
           <div
             className="sborder-4 font-medium text-greens text-xl lg:text-2xl"
-            data-aos="fade-right"
-            data-aos-duration="1900"
+            data-aoss="fade-right"
+            data-aos-duration="1200"
           >
             <h2>
               Where passion meets precision: Welcome to Gateway Polo and
@@ -54,8 +54,8 @@ const Experiences = () => {
           </div>
           <div
             className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify lg:text-base"
-            data-aos="fade-left"
-            data-aos-duration="1900"
+            data-aoss="fade-left"
+            data-aos-duration="1200"
           >
             <p>
               Step into a world where elegance meets excitement at Gateway
@@ -71,8 +71,8 @@ const Experiences = () => {
           <div className="flex flex-col gap-4">
             <div
               className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
-              data-aos="fade-down"
-              data-aos-duration="1900"
+              data-aoss="fade-down"
+              data-aos-duration="1200"
             >
               <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
                 <img
@@ -85,8 +85,8 @@ const Experiences = () => {
             </div>
             <div
               className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
-              data-aos="fade-down"
-              data-aos-duration="1900"
+              data-aoss="fade-down"
+              data-aos-duration="1200"
             >
               <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
                 <img
@@ -99,8 +99,8 @@ const Experiences = () => {
             </div>
             <div
               className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
-              data-aos="fade-down"
-              data-aos-duration="1900"
+              data-aoss="fade-down"
+              data-aos-duration="1200"
             >
               <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
                 <img
@@ -113,8 +113,8 @@ const Experiences = () => {
             </div>
             <div
               className="sborder-2 flex items-center gap-4 font-medium text-greens text-xs tracking-tighter p-4 rounded-[10px] w-full shadow-lg"
-              data-aos="fade-down"
-              data-aos-duration="1900"
+              data-aoss="fade-down"
+              data-aos-duration="1200"
             >
               <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[24px] h-[24px]">
                 <img

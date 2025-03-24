@@ -7,8 +7,8 @@ const ComingSoon = () => {
     <>
       <div
         className="sborder-4 border-black pt-16 flex flex-col items-center px-4  lg:px-10 gap-6 text-greens "
-        data-aos="fade-up"
-        data-aos-duration="1900"
+        data-aoss="fade-up"
+        data-aos-duration="1200"
       >
         <div className="sborder-4 bg-greens w-full px-8 py-12 text-white flex flex-col items-center justify-center gap-6">
           <div className="sborder-2 flex flex-col items-center gap-6 text-center ">
