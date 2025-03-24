@@ -1,6 +1,7 @@
 import React from "react";
 import about1 from "../assets/images/about1.png";
 import about2 from "../assets/images/about2.png";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -66,7 +67,7 @@ const AboutUs = () => {
             data-aos="zoom-in"
             data-aos-duration="1200"
           >
-            Join the Experience
+            <Link to="/joinUs">Join The Experience</Link>
           </div>
         </div>
       </div>

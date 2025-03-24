@@ -3,6 +3,7 @@ import why1 from "../assets/images/why1.png";
 import why2 from "../assets/images/why2.png";
 import why3 from "../assets/images/why3.png";
 import tick from "../assets/icons/tick.svg";
+import { Link } from "react-router-dom";
 
 const WhyUs = () => {
   return (
@@ -110,7 +111,8 @@ const WhyUs = () => {
           data-aos="zoom-in"
           data-aos-duration="1200"
         >
-          Book Your Visit Now
+          {" "}
+          <Link to="/joinUs"> Book Your Visit Now</Link>
         </div>
       </div>
     </>

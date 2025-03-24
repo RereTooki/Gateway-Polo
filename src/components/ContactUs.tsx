@@ -10,6 +10,7 @@ import {
   FaFacebook,
   FaWhatsapp,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const email = "Info@gatewaypolo.ng"; // Replace with the recipient's email address
@@ -77,7 +78,7 @@ const ContactUs = () => {
             </div>
             {/* Reservation Button */}
             <button className="flex items-center gap-2 border-[1px] border-[#B79D52] px-6 py-3 rounded-md text-sm text-greens w-fit self-center">
-              📅 Reserve a piece of Nature
+              <Link to="/joinUs"> 📅 Reserve a piece of Nature</Link>
             </button>
             <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-full lg:w-24 h-24 self-center lg:hidden">
               <img
