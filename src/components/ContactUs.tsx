@@ -110,7 +110,7 @@ const ContactUs = () => {
         </div>
         {/* Chat Support Button */}
         <button
-          className="flex items-center gap-2 px-4 py-2 border rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4"
+          className="flex items-center gap-2 px-4 py-2 border rounded-md text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4 animate-pulse"
           onClick={handleWhatsAppClick}
         >
           Instant chat support to get started{" "}
