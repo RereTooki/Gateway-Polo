@@ -34,7 +34,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
     <>
       <div
         className="border-b-[1px] px-4 lg:px-6 flex justify-between items-center fixed top-0 w-full h-[70px]  bg-white z-50 cursor-pointer select-none"
-        data-aoss="fade-down"
+        data-aos="fade-down"
         data-aos-duration="1200"
       >
         <div className="sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2">
@@ -46,7 +46,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
         </div>
         <div
           className="w-fit lack lg:hidden sborder-4 flex items-center justify-center"
-          data-aoss="fade-left"
+          data-aos="fade-left"
           data-aos-duration="900"
         >
           <button onClick={() => setNavIsVisible(!navIsVisible)}>
@@ -79,7 +79,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
           {navIsVisible && (
             <div
               className="w3-animate-rightNav sbg-white dark:bg-black/70 backdrop-invert lg:hidden absolute top-[23vw] md:top-[80px] right-[4vw] nxl:right-[34px] w-[60vw] md:w-[50vw] max-w-[250px] px-[5%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[20px] rounded-[10px] font-overpass flex flex-col gap-[5px] z-40 bg-white/60 text-white"
-              data-aoss="fade-left"
+              data-aos="fade-left"
               data-aos-duration="700"
             >
               <div

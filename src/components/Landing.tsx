@@ -24,8 +24,8 @@ const Landing = () => {
           <div className="flex flex-col gap-6 lg:gap-8">
             <div className="flex flex-col lg:gap-2">
               <h1
-                className="font-medium text-[30px] leading-[40px] tab:text-3xl lg:text-4xl xl:text-6xl lg:leading-[45px] xl:leading-[70px]  lg:sborder-4"
-                data-aoss="zoom-in"
+                className="font-medium text-[40px] leading-[50px] tab:text-3xl lg:text-4xl xl:text-6xl lg:leading-[45px] xl:leading-[70px]  lg:sborder-4"
+                data-aos="zoom-in"
                 data-aos-duration="1200"
               >
                 Experience the Elegance & Thrill of Polo & Racing
@@ -36,7 +36,7 @@ const Landing = () => {
             </div>
             <p
               className="leading-6 text-[13px] tab:text-[14px] lg:text-lg xl:text-2xls tracking-[-0.5px] px-6"
-              data-aoss="zoom-in"
+              data-aos="zoom-in"
               data-aos-duration="1200"
             >
               An exclusive destination where the thrill of horse racing meets
@@ -46,14 +46,14 @@ const Landing = () => {
           <div className="flex justify-evenly items-center gap-4 sborder-4 w-full">
             <div
               className="w-fit whitespace-nowrap py-[15px] lg:py-4 px-[18px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-8 xl:px-10 lg:text-sm xl:text-lg w-1/2 max-w-[152px] lg:max-w-none lg:w-auto"
-              data-aoss="fade-up"
+              data-aos="fade-up"
               data-aos-duration="1200"
             >
               Explore Events
             </div>
             <div
               className="w-fit whitespace-nowrap py-[15px] lg:py-4 px-[18px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-8 xl:px-10 lg:text-sm xl:text-lg w-1/2 max-w-[152px] lg:max-w-none lg:w-auto"
-              data-aoss="fade-up"
+              data-aos="fade-up"
               data-aos-duration="1200"
             >
               Join the Club
