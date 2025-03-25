@@ -1,9 +1,13 @@
 import Coming from "./Coming";
+import MembershipForm from "./MembershipForm";
 
 const JoinUs = () => {
   return (
+    // <>
+    //   <Coming />
+    // </>
     <>
-      <Coming />
+      <MembershipForm />
     </>
   );
 };
