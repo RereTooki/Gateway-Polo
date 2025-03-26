@@ -6,7 +6,7 @@ import tick from "../assets/icons/tick.svg";
 const Experiences = () => {
   return (
     <>
-      <div className="sborder-4 border-black pt-16 pb-10 lg:pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6 overflow-y-hiddden">
+      <div className="sborder-4 border-black pt-16 xl:pt-24 pb-10 lg:pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6 overflow-y-hiddden">
         <div
           className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs lg:text-base drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mbs-2 selection:text-white selection:bg-black/80"
           data-aos="fade-down"
@@ -15,7 +15,7 @@ const Experiences = () => {
           EXPERIENCES
         </div>{" "}
       </div>{" "}
-      <div className="sborder-4 border-black pb-6 lg:pb-0 flex flex-col lg:flex-row  items-center justify-center px-4 lg:px-10 gap-8 lg:gap-6">
+      <div className="sborder-4 border-black pb-6 lg:pb-4 flex flex-col lg:flex-row  items-center justify-center px-4 lg:px-10 gap-8 lg:gap-6">
         <div className="sborder-4 w-full flex flex-row-reverse  relative h-[60vw] max-h-[60vh] lg:max-h-none lg:h-[70vh]     lg:w-1/2  items-center max-w-[500px] lg:max-w-none  select-none">
           {" "}
           <div className="sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[60%] h-[206px]s max-w-[200px]s lg:max-w-none h-[65%] max-h-[200px] lg:max-h-[270px] lg:w-[65%] z-10 border-dotted overflow-hidden ">

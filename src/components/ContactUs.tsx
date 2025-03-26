@@ -80,7 +80,7 @@ const ContactUs = () => {
             <button className="flex items-center gap-2 border-[1px] border-[#B79D52] px-6 py-3 rounded-md text-sm text-greens w-fit self-center">
               <Link to="/joinUs"> 📅 Reserve a piece of Nature</Link>
             </button>
-            <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-full lg:w-24 h-24 self-center lg:hidden">
+            <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-18 lg:w-24 h-24 self-center lg:hidden">
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
                 src={logo}

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
-      <div className="sborder-4 border-black pt-16 pb-10 lg:pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6 overflow-y-hiddden">
+      <div className="sborder-4 border-black pt-16 xl:pt-24 pb-10 lg:pb-6 flex flex-col lg:flex-row  items-center justify-center px-4 gap-6 overflow-y-hiddden">
         <div
           className="border-[1px] w-fit self-center p-4 rounded-[20px] text-[#B79D52] font-medium text-xs lg:text-base drop-shadow-[3px_6px_5px_rgba(111, 181, 131, 0.8)]s drop-shadow-2xl mbs-2 selection:text-white selection:bg-black/80 "
           data-aos="fade-down"
