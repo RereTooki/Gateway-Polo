@@ -25,7 +25,7 @@ const WhyUs = () => {
             <h2> Why Choose Gateway Racecourse?</h2>
           </div>
           <div
-            className="sborder-2 font-medium text-xs tab:text-sm lg:text-base xl:text-lg text-center lg:px-12"
+            className="sborder-2 font-medium text-sm tab:text-sm lg:text-base xl:text-lg text-center lg:px-12"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -53,7 +53,7 @@ const WhyUs = () => {
                 {" "}
                 Thrilling Horse Races
               </h2>
-              <p className="font-medium text-xs lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
+              <p className="font-medium text-sm lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
                 Experience the adrenaline rush as powerful steeds thunder down
                 the track in heart-pounding races!
               </p>
@@ -76,7 +76,7 @@ const WhyUs = () => {
                 {" "}
                 Unmatched VIP Experience
               </h2>
-              <p className="font-medium text-xs lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
+              <p className="font-medium text-sm lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
                 Indulge in exclusive luxury, premium hospitality, and front-row
                 access to elite equestrian events!
               </p>
@@ -99,7 +99,7 @@ const WhyUs = () => {
                 {" "}
                 Prestigious Polo Events
               </h2>
-              <p className="font-medium text-xs lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
+              <p className="font-medium text-sm lg:text-sm xl:text-base lg:tracking-normal tracking-tighter">
                 Witness the elegance and intensity of world-class polo in a
                 setting of pure prestige.
               </p>
@@ -107,7 +107,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div
-          className="border-[1px] border-[#B79D52] font-medium text-greens text-xs p-4 mt-16 rounded-[10px] w-fit tab:text-sm  sanimate-pulse self-center transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+          className="border-[1px] border-[#B79D52] font-medium text-greens text-sm p-4 mt-16 rounded-[10px] w-fit tab:text-sm  sanimate-pulse self-center transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
           data-aos="zoom-in"
           data-aos-duration="1200"
         >

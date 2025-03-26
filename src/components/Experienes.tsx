@@ -43,7 +43,7 @@ const Experiences = () => {
         </div>
         <div className="flex flex-col gap-6 tab:px-4 sborder-4 border-black lg:w-1/2 selection:text-white selection:bg-black/80 ">
           <div
-            className="sborder-4 font-medium text-greens text-xl tab:text-2xl xl:text-3xl"
+            className="sborder-4 font-medium text-greens text-2xl tab:text-2xl xl:text-3xl"
             data-aos="fade-left"
             data-aos-duration="1200"
           >
@@ -53,7 +53,7 @@ const Experiences = () => {
             </h2>
           </div>
           <div
-            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base xl:text-lg"
+            className="sborder-4 font-medium text-greens text-sm tracking-tighter text-justify tab:text-sm lg:text-base xl:text-lg"
             data-aos="fade-left"
             data-aos-duration="1200"
           >

@@ -12,28 +12,20 @@ const AboutUs = () => {
           data-aos="fade-down"
           data-aos-duration="1200"
         >
-          ABOUTs
+          ABOUT
         </div>{" "}
       </div>{" "}
       <div className="sborder-4 border-black pb-6 lg:pb-0 flex flex-col lg:flex-row-reverse  items-center justify-center px-4 lg:px-10 gap-8 lg:gap-6">
         <div className="sborder-4 w-full flex relative h-[60vw] max-h-[60vh] lg:max-h-none lg:h-[70vh]     lg:w-1/2  items-center max-w-[500px] lg:max-w-none  select-none">
           {" "}
-          <div
-            className="sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[60%] h-[206px]s max-w-[200px]s lg:max-w-none h-[65%] max-h-[200px] lg:w-[65%] z-10 border-dotted "
-            data-aoss="fade-up"
-            data-aoss-duration="1200"
-          >
+          <div className="sborder-4 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[60%] h-[206px]s max-w-[200px]s lg:max-w-none h-[65%] max-h-[200px] lg:w-[65%] z-10 border-dotted ">
             <img
               className="w-full h-full object-covers"
               src={about1}
               alt="A man"
             />
           </div>
-          <div
-            className="Sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[70%] max-w-[280px]s lg:max-w-none scal h-full lg:w-[80%] lg:h-[70vh] sright-8 border-black absolute right-0"
-            data-aoss="fade-down"
-            data-aoss-duration="1200"
-          >
+          <div className="Sborder-2 h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] w-[70%] max-w-[280px]s lg:max-w-none scal h-full lg:w-[80%] lg:h-[70vh] sright-8 border-black absolute right-0">
             <img
               className="w-full h-full object-covers"
               src={about2}
@@ -43,14 +35,14 @@ const AboutUs = () => {
         </div>
         <div className="flex flex-col gap-6 tab:px-4 sborder-4 border-black lg:w-1/2 selection:text-white selection:bg-black/80 ">
           <div
-            className="sborder-4 font-medium text-greens text-xl tab:text-2xl xl:text-3xl"
+            className="sborder-4 font-medium text-greens text-2xl tab:text-2xl xl:text-3xl"
             data-aos="fade-right"
             data-aos-duration="1200"
           >
             <h2>Discover The Ultimate Equestrian Destination</h2>
           </div>
           <div
-            className="sborder-4 font-medium text-greens text-xs tracking-tighter text-justify tab:text-sm lg:text-base xl:text-lg"
+            className="sborder-4 font-medium text-greens text-sm tracking-tighter text-justify tab:text-sm lg:text-base xl:text-lg"
             data-aos="fade-right"
             data-aos-duration="1200"
           >
