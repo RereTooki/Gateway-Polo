@@ -79,42 +79,42 @@ const Navbar: React.FC<NavigationBarProps> = ({
           </button>
           {navIsVisible && (
             <div
-              className="w3-animate-rightNav sbg-white dark:bg-black/70 backdrop-invert lg:hidden absolute top-[23vw] md:top-[80px] right-[4vw] nxl:right-[34px] w-[60vw] md:w-[50vw] max-w-[250px] px-[5%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[20px] rounded-[10px] font-overpass flex flex-col gap-[5px] z-40 bg-white/60 text-white"
+              className="w3-animate-rightNav sbg-white bg-black/70 backdrop-invert lg:hidden absolute top-[23vw] md:top-[80px] right-[4vw] nxl:right-[34px] w-[60vw] md:w-[50vw] max-w-[250px] px-[5%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[20px] rounded-[10px] font-overpass flex flex-col gap-[5px] z-40 bg-white/60 text-white"
               data-aos="fade-left"
               data-aos-duration="700"
             >
               <div
-                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(introRef)}
               >
                 Home
               </div>
               <div
-                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(aboutMeRef)}
               >
                 About Us
               </div>
               <div
-                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(projectsRef)}
               >
                 Experiences
               </div>
               <div
-                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(FAQRef)}
               >
                 FAQ
               </div>
               <div
-                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(contactMeRef)}
               >
                 Contact Us
               </div>
               <div
-                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white"
+                className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(contactMeRef)}
               >
                 <Link to="/joinUs">Join Us</Link>
