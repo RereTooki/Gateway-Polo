@@ -3,12 +3,12 @@ import MembershipForm from "./MembershipForm";
 
 const JoinUs = () => {
   return (
-    // <>
-    //   <Coming />
-    // </>
     <>
-      <MembershipForm />
+      <Coming />
     </>
+    // <>
+    //   <MembershipForm />
+    // </>
   );
 };
 
