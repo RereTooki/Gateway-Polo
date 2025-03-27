@@ -79,7 +79,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
           </button>
           {navIsVisible && (
             <div
-              className="w3-animate-rightNav sbg-white bg-black/70 backdrop-invert lg:hidden absolute top-[23vw] md:top-[80px] right-[4vw] nxl:right-[34px] w-[60vw] md:w-[50vw] max-w-[250px] px-[5%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[20px] rounded-[10px] font-overpass flex flex-col gap-[5px] z-40 bg-white/60 text-white"
+              className="w3-animate-rightNav sbg-white bg-black/70 backdrop-invert lg:hidden absolute top-[23vw] md:top-[80px] right-[4vw] nxl:right-[34px] w-[60vw] md:w-[50vw] max-w-[250px] px-[5%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[20px] rounded-[10px] font-overpass flex flex-col gap-[5px] z-40 bg-black/60 text-white"
               data-aos="fade-left"
               data-aos-duration="700"
             >
