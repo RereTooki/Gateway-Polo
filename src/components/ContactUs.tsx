@@ -35,7 +35,7 @@ const ContactUs = () => {
   ];
   return (
     <>
-      <div className="sborder-4  border-double border-black pt-24 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16">
+      <div className="sborder-4  border-double border-black pt-24 pb-8 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16">
         {" "}
         {/* Header */}
         <div className="sborder-4 flex flex-col gap-4 w-full md:w-[80%] border-black lg:mb-24 items-center lg:w-fit">
@@ -92,15 +92,15 @@ const ContactUs = () => {
             </div>
           </div>
           {/* Footer */}
-          <div className="text-xs text-gray-500 mt-6 mb-14 lg:mb-0 lg:mt-0">
+          {/* <div className="text-xs text-gray-500 mt-6 mb-14 lg:mb-0 lg:mt-0">
             <p>Nigeria’s most desirable Country Home</p>
             <p>© 2025 Gateway Lagos | Powered by LandWey</p>
-          </div>
+          </div> */}
         </div>
         <div className="lg:w-fit sborder-2 hidden lg:block">
-          <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-48  h-36 self-center ">
+          <div className="sborder-2 border-black h-fit transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-full flex justify-center  h-36 self-center ">
             <img
-              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+              className="w-36 h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
               src={logo}
               alt="background-img"
             />
