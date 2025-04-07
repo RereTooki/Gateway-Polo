@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <>
-      <div className="exoFonts flex flex-col items-center justify-center mt-[40px] border-4 border-black/40 boredr-double text-whites  relative w-full h-full sborder-4 border-black overflow-hidden">
+      <div className="flex flex-col items-center justify-center mt-[40px] sborder-4 border-black/40 boredr-double text-whites  relative w-full h-full sborder-4 border-black overflow-hidden">
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full">
           <video
@@ -21,13 +21,13 @@ const Landing = () => {
         </div>
 
         {/* Content on top of video */}
-        <div className=" border-4 border-black gap-6 h-fit flex flex-col items-center justify-center  w-[80%] lg:w-[70%] text-center relative z-10">
+        <div className="sborder-4 border-black gap-6 h-fit flex flex-col items-center justify-center  w-[80%] lg:w-[70%] text-center relative z-10">
           <div className="flex flex-col gap-6 lg:gap-8">
             <div className="flex flex-col lg:gap-2">
               <h1
                 className="font-medium text-[35px] leading-[45px] tab:text-4xl lg:text-5xl xl:text-6xl tab:leading-[45px] lg:leading-[60px] xl:leading-[70px]  lg:sborder-4"
-                data-aoss="zoom-in"
-                data-aoss-duration="1200"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
               >
                 Experience the Elegance & Thrill of Polo & Racing
               </h1>
@@ -37,15 +37,15 @@ const Landing = () => {
             </div>
             <p
               className="sborder-4 leading-6 text-[13px] tab:text-[14px] lg:text-lg xl:text-2xl tracking-[-0.5px] px-6 tab:px-24"
-              data-aoss="zoom-in"
-              data-aoss-duration="1200"
+              data-aos="zoom-in"
+              data-aos-duration="1200"
             >
               An exclusive destination where the thrill of horse racing meets
               the grace of polo
             </p>
           </div>
           <div className="flex justify-evenly items-center gap-4 sborder-4 w-full">
-            <div className="w-fit whitespace-nowrap py-[15px] lg:py-4 px-[18px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-8 xl:px-10 lg:text-sm xl:text-lg w-1/2 max-w-[152px] lg:max-w-none lg:w-auto w3-animate-zoom">
+            <div className="w-fit whitespace-nowrap py-[15px] lg:py-4 px-[18px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-8 xl:px-10 tab:text-sm xl:text-xl w-1/2 max-w-[152px] lg:max-w-none lg:w-auto w3-animate-zoom">
               <Link to="/joinUs">Join The Club</Link>
             </div>
           </div>

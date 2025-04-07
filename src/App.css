@@ -18,3 +18,15 @@
 .exoFont {
   font-family: "Exo 2", sans-serif;
 }
+
+.w3-animate-zoom {
+  animation: animatezoom 1.2s;
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
