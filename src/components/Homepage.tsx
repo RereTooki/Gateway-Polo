@@ -12,10 +12,10 @@ import ContactUs from "./ContactUs";
 const Homepage = () => {
   // Create refs for each section
   const introRef = useRef<HTMLDivElement>(null);
-  const projectsRef = useRef<HTMLDivElement>(null);
+  const membershipRef = useRef<HTMLDivElement>(null);
   const aboutMeRef = useRef<HTMLDivElement>(null);
   const contactMeRef = useRef<HTMLDivElement>(null);
-  const FAQRef = useRef<HTMLDivElement>(null);
+  const accomodationsRef = useRef<HTMLDivElement>(null);
   return (
     <>
       {" "}
@@ -23,30 +23,30 @@ const Homepage = () => {
         <div>
           <Navbar
             introRef={introRef}
-            projectsRef={projectsRef}
+            membershipRef={membershipRef}
             aboutMeRef={aboutMeRef}
             contactMeRef={contactMeRef}
-            FAQRef={FAQRef}
+            accomodationsRef={accomodationsRef}
           />
         </div>
         <div ref={introRef} className="scroll select-none h-full">
           <Landing />{" "}
         </div>
       </div>
-      <div ref={aboutMeRef} className="scroll ">
+      {/* <div ref={aboutMeRef} className="scroll ">
         <AboutUs />
       </div>
-      <div ref={projectsRef} className="scroll overflow-x-hidden ">
+      <div ref={membershipRef} className="scroll overflow-x-hidden ">
         <Experienes />
       </div>
       <WhyUs />
-      <ComingSoon />
-      <div ref={FAQRef} className="scroll select-none">
+      <ComingSoon /> */}
+      {/* <div ref={accomodationsRef} className="scroll select-none">
         <FAQ />{" "}
       </div>
       <div ref={contactMeRef} className="scroll select-none">
         <ContactUs />{" "}
-      </div>
+      </div> */}
     </>
   );
 };
