@@ -1,18 +1,32 @@
 import React from "react";
 import aboutUs1 from "../assets/images/aboutUs1.png";
 import aboutUs2 from "../assets/images/aboutUs2.png";
+import aboutMid1 from "../assets/images/aboutMid1.png";
+import aboutMid2 from "../assets/images/aboutMid2.png";
+import aboutMid3 from "../assets/images/aboutMid3.png";
+import aboutMid4 from "../assets/images/aboutMid4.png";
+import aboutMid5 from "../assets/images/aboutMid5.png";
+import aboutMid6 from "../assets/images/aboutMid6.png";
 
 const AboutIntro = () => {
+  const images = [
+    aboutMid1,
+    aboutMid2,
+    aboutMid3,
+    aboutMid4,
+    aboutMid5,
+    aboutMid6,
+  ];
   return (
     <>
       {" "}
-      <div className="border-4 border-double border-black px-4 tab:px-8 pt-12 flex flex-col lg:flex-row gap-4 items-center justify-centers text-greens mt-[70px]">
+      <div className="border-b-4 border-double border-black px-4 tab:px-8 xxl:px-16 py-12 xxl:py-16 flex flex-col lg:flex-row gap-8 xl:gap-10 items-center justify-centers text-greens mt-[70px]">
         {" "}
-        <div className="flex flex-col gap-8 border-2 lg:w-1/2">
-          <div className="sborder-4 font-medium  text-2xl tab:text-4xl xl:text-3xl text-center px-8 pb-8s">
+        <div className="flex flex-col gap-8 lg:gap-6 xl:gap-12 sborder-2 lg:w-1/2 lg:min-h-dvh xl:h-dvh">
+          <div className="sborder-4 font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:text-start lg:px-0 lg:w-[80%] px-8 pb-8s">
             <h2>About Gateway Polo & Racecourse</h2>
           </div>
-          <div className="sborder-2 text-justify tab:text-xl pb-8s underline underline-offset-4 decoration-[0.5px] decoration-greens/80 decoration-dotted">
+          <div className="sborder-2 text-justify tab:text-xl lg:text-base xl:text-lg pb-8s underline underline-offset-4 decoration-[0.5px] decoration-greens/80 decoration-dotted lg:no-underline lg:tracking-tight lg:font-medium">
             Welcome to Gateway Polo and Racecourse, an exclusive membership club
             poised to become the premier destination for polo and equestrian
             enthusiasts in Ogun State, Nigeria.<br></br>
@@ -30,12 +44,29 @@ const AboutIntro = () => {
             Join The Experience
           </div>{" "}
         </div>
-        <div className="border-4 w-full lg:w-1/2 lg:h-full">
+        <div className="border-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh">
           {" "}
           <picture className="">
             <source className="" media="(max-width: 750px)" srcSet={aboutUs1} />
-            <img src={aboutUs2} alt="" className="h-full w-full" />
+            <img
+              src={aboutUs2}
+              alt=""
+              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill"
+            />
           </picture>
+        </div>
+      </div>
+      <div className="border-4 border-black py-12 xxl:py-16 px-4 tab:px-8 xxl:px-16">
+        <div className="border-4 flex flex-col lg:flex-row lg:flex-wrap">
+          {images.map((src, index) => (
+            <div key={index} className="w-full tab:w-1/2 xl:w-1/3 pb-2">
+              <img
+                src={src}
+                alt={`Image ${index + 1}`}
+                className="w-full h-auto rounded-lg shadow-md object-contain lg:object-fill"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </>
