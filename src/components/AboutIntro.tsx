@@ -2,11 +2,12 @@ import React from "react";
 import aboutUs1 from "../assets/images/aboutUs1.png";
 import aboutUs2 from "../assets/images/aboutUs2.png";
 import aboutMid1 from "../assets/images/aboutMid1.png";
-import aboutMid2 from "../assets/images/aboutMid2.png";
+import aboutMid2 from "../assets/images/aboutMid6.png";
 import aboutMid3 from "../assets/images/aboutMid3.png";
 import aboutMid4 from "../assets/images/aboutMid4.png";
 import aboutMid5 from "../assets/images/aboutMid5.png";
 import aboutMid6 from "../assets/images/aboutMid6.png";
+import arrRight from "../assets/icons/arrRight.svg";
 
 const AboutIntro = () => {
   const images = [
@@ -40,33 +41,47 @@ const AboutIntro = () => {
             for equestrian pursuits. Our club is committed to upholding the rich
             traditions of polo while embracing innovation and inclusivity.
           </div>
-          <div className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80">
+          <div className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] text-greens">
             Join The Experience
           </div>{" "}
         </div>
-        <div className="border-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh">
+        <div className="sborder-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh">
           {" "}
           <picture className="">
             <source className="" media="(max-width: 750px)" srcSet={aboutUs1} />
             <img
               src={aboutUs2}
               alt=""
-              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill"
+              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
             />
           </picture>
         </div>
       </div>
-      <div className="border-4 border-black py-12 xxl:py-16 px-4 tab:px-8 xxl:px-16">
-        <div className="border-4 flex flex-col lg:flex-row lg:flex-wrap">
+      <div className="sborder-4 border-black py-12 xxl:py-16 px-4 tab:px-8 xxl:px-16">
+        <div className="sborder-4 flex flex-col lg:gap-4 lg:flex-row lg:flex-wrap justify-center">
           {images.map((src, index) => (
-            <div key={index} className="w-full tab:w-1/2 xl:w-1/3 pb-2">
+            <div
+              key={index}
+              className="w-full h-[290px] lg:h-[280px] lg:h-auto lg:w-[48.5%] xl:w-[32.1%] mb-6 xmd:mb-8 lg:mb-0 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] sborder-2"
+            >
               <img
                 src={src}
                 alt={`Image ${index + 1}`}
-                className="w-full h-auto rounded-lg shadow-md object-contain lg:object-fill"
+                className="w-full h-[290px] lg:h-[280px]  lg:h-auto rounded-lg drop-shadow-2xl object-contain lg:object-fill"
               />
             </div>
           ))}
+        </div>
+        <div className="sborder-2 border-black flex flex-col gap-6 xmd:gap-8 items-center justify-center lg:items-end lg:mt-8">
+          <div className="flex flex-row sborder-2 h-full gap-2 w-fit text-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+            <div className="sborder-2 animate-pulse">View More</div>
+            <div className="sborder-2 animate-pulse h-[30pxs] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2 relative bottom-[4px]">
+              <img className="w-full h-full" src={arrRight} alt="Right Arrow" />
+            </div>
+          </div>
+          <div className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] text-greens">
+            Book Your Visit Now
+          </div>
         </div>
       </div>
     </>

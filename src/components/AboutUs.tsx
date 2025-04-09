@@ -2,6 +2,7 @@ import { useRef } from "react";
 import AboutIntro from "./AboutIntro";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
+import MeetTheTeam from "./MeetTheTeam";
 
 const AboutUs = () => {
   // Create refs for each section
@@ -13,7 +14,7 @@ const AboutUs = () => {
   return (
     <>
       {" "}
-      <div className="h-dvh sborder-4 border-black border-dotted soverflow-hidden">
+      <div className="sborder-4 border-black border-dotted soverflow-hidden">
         <div>
           <Navbar
             introRef={introRef}
@@ -23,8 +24,11 @@ const AboutUs = () => {
             accomodationsRef={accomodationsRef}
           />
         </div>
-        <div ref={introRef} className=" select-none h-full">
+        <div className=" select-none h-full">
           <AboutIntro />{" "}
+        </div>
+        <div className=" select-none h-full">
+          <MeetTheTeam />
         </div>
       </div>
     </>

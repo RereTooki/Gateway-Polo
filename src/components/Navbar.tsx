@@ -39,11 +39,14 @@ const Navbar: React.FC<NavigationBarProps> = ({
           data-aos="fade-down"
           data-aos-duration="1200"
         >
-          <img
-            className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
-            src={logo}
-            alt="background-img"
-          />
+          {" "}
+          <Link to="/">
+            <img
+              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+              src={logo}
+              alt="background-img"
+            />
+          </Link>
         </div>
         <div
           className="w-fit lack lg:hidden sborder-4 flex items-center justify-center"
