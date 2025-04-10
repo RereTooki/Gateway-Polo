@@ -90,7 +90,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(introRef)}
               >
-                Home
+                <Link to="/">Home</Link>
               </div>
               <div className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white ">
                 <Link to="/aboutUs">About Us</Link>
@@ -123,18 +123,24 @@ const Navbar: React.FC<NavigationBarProps> = ({
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
-            <span onClick={() => scrollToSection(introRef)}>Home</span>
+            <Link to="/">Home</Link>
           </div>
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
             <Link to="/aboutUs">About Us</Link>
           </div>
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
             <span onClick={() => scrollToSection(membershipRef)}>
               Membership
@@ -143,6 +149,8 @@ const Navbar: React.FC<NavigationBarProps> = ({
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
             <Link to="/accomodations">Accomodations</Link>
           </div>
@@ -150,13 +158,19 @@ const Navbar: React.FC<NavigationBarProps> = ({
           <div
             className="hover:underline underline-offset-4 decoration-black dark:decoration-white
            ease-in-out duration-500 hover:scale-[1.05] dark:text-whitessss"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
             <span onClick={() => scrollToSection(contactMeRef)}>
               Contact Us
             </span>
           </div>
         </div>
-        <div className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs hidden lg:block text-white animate-pulse">
+        <div
+          className="w-fit whitespace-nowrap py-[10px] px-[20px] rounded-full h-fit font-medium text-whitessss bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs hidden lg:block text-white animate-pulse"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
           <Link to="/joinUs">Join Now</Link>
         </div>
       </div>

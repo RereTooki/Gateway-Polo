@@ -3,6 +3,10 @@ import team1 from "../assets/images/team1.png";
 import team2 from "../assets/images/team2.png";
 import team3 from "../assets/images/team3.png";
 import team4 from "../assets/images/team4.png";
+import team5 from "../assets/images/team5.png";
+import team6 from "../assets/images/team6.png";
+import team7 from "../assets/images/team7.png";
+import team8 from "../assets/images/team8.png";
 import partner1 from "../assets/icons/partner1.svg";
 import partner2 from "../assets/icons/partner2.svg";
 import partner3 from "../assets/icons/partner3.svg";
@@ -27,34 +31,40 @@ const team: TeamMember[] = [
   {
     name: "Otunba Kayode Adebayo",
     title: "Executive Director",
-    image: team2,
-    linkedin: "#",
-  },
-  {
-    name: "Dolapo Ogunbambo",
-    title: "Chief marketing officer",
-    image: team3,
-    linkedin: "#",
-  },
-  {
-    name: "Dolapo Ogunbambo",
-    title: "Chief marketing officer",
     image: team4,
     linkedin: "#",
   },
   {
     name: "Dolapo Ogunbambo",
-    title: "Chief marketing officer",
-    image: team1,
+    title: "Chief Marketing Officer",
+    image: team3,
+    linkedin: "#",
+  },
+
+  {
+    name: "Kingsley Oluwatomisin",
+    title: "Chief Operations Officer",
+    image: team5,
     linkedin: "#",
   },
   {
-    name: "Dolapo Ogunbambo",
-    title: "Chief marketing officer",
-    image: team1,
+    name: "Barr. Adeyemi Abraham",
+    title: "Secretary/Legal Adviser",
+    image: team6,
     linkedin: "#",
   },
-  // ...add up to 10 members
+  {
+    name: "Lekan Ajayi FCA",
+    title: "Head of Finance",
+    image: team7,
+    linkedin: "#",
+  },
+  {
+    name: "Princess Adepeju",
+    title: "Executive Director",
+    image: team8,
+    linkedin: "#",
+  },
 ];
 
 type Partner = {

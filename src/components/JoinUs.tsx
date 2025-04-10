@@ -1,4 +1,5 @@
 import Coming from "./Coming";
+import ComingSoon from "./ComingSoon";
 import MembershipForm from "./MembershipForm";
 
 const JoinUs = () => {

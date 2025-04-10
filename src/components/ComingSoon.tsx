@@ -14,15 +14,15 @@ const ComingSoon = () => {
           <div className="sborder-2 flex flex-col items-center gap-6 text-center mb-4 lg:mb-0 ">
             <h3
               className="font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl"
-              data-aos="fade-up"
-              data-aos-duration="1200"
+             
+             
             >
               Our Application is Coming Soon
             </h3>
             <p
               className="text-xs font-medium lg:text-sm lg:w-[70%]"
-              data-aos="fade-up"
-              data-aos-duration="1200"
+             
+             
             >
               We are still building. Subscribe for updates and 20% off when we
               launch. No spam, We promise!
@@ -30,8 +30,8 @@ const ComingSoon = () => {
           </div>
           <div
             className="sborder-2 flex flex-row items-center gap-2 text-center w-full lg:w-[70%]"
-            data-aos="fade-up"
-            data-aos-duration="1200"
+           
+           
           >
             {/* Email Input and Button */}
 
@@ -46,8 +46,8 @@ const ComingSoon = () => {
           </div>
           <div
             className="sborder-2 flex flex-row items-center gap-2 text-center w-full lg:w-[70%]"
-            data-aos="fade-up"
-            data-aos-duration="1200"
+           
+           
           >
             {/* Apple And PlayStore */}
             <div className=" w-full h-[50px] lg:h-[55px] sborder-2">

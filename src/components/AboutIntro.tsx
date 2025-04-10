@@ -65,8 +65,23 @@ const AboutIntro = () => {
           </div>{" "}
         </div>
         <div
-          className="sborder-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh"
+          className="sborder-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh hidden lg:block"
           data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          {" "}
+          <picture className="">
+            <source className="" media="(max-width: 750px)" srcSet={aboutUs1} />
+            <img
+              src={aboutUs2}
+              alt=""
+              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+            />
+          </picture>
+        </div>
+        <div
+          className="sborder-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh lg:hidden"
+          data-aos="fade-up"
           data-aos-duration="1200"
         >
           {" "}

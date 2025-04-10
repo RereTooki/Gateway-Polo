@@ -35,7 +35,11 @@ const ContactUs = () => {
   ];
   return (
     <>
-      <div className="sborder-4  border-double border-black pt-24 pb-8 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16">
+      <div
+        className="sborder-4  border-double border-black pt-24 pb-8 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         {" "}
         {/* Header */}
         <div className="sborder-4 flex flex-col gap-4 w-full md:w-[80%] border-black lg:mb-24 items-center lg:w-fit">
@@ -110,14 +114,14 @@ const ContactUs = () => {
           </p>
         </div>
         {/* Chat Support Button */}
-        <button
-          className="flex items-center justify-center gap-2 p-2 spy-2 rounded-full text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4 animate-pulses backdrop-blur-md backdrop-invert text-greens mix-blend-differences bg-greens/50 z-40 right-2 md:right-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] h-12 w-12 z-10"
-          onClick={handleWhatsAppClick}
-        >
-          {/* Instant chat support to get started{" "} */}
-          <FaWhatsapp color="#fff" className=" h-8 w-8 border-2s" />
-        </button>
       </div>
+      <button
+        className="flex items-center justify-center gap-2 p-2 spy-2 rounded-full text-xs text-greens border-[#B79D52] mt-4 fixed bottom-4 animate-pulses backdrop-blur-md backdrop-invert text-greens mix-blend-differences bg-greens/50 z-40 right-2 md:right-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] h-12 w-12 z-10"
+        onClick={handleWhatsAppClick}
+      >
+        {/* Instant chat support to get started{" "} */}
+        <FaWhatsapp color="#fff" className=" h-8 w-8 border-2s" />
+      </button>
     </>
   );
 };
