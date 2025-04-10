@@ -99,7 +99,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(membershipRef)}
               >
-                Membership
+                <Link to="/accomodations">Membership</Link>
               </div>
               <div className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white ">
                 <Link to="/accomodations">Accomodations</Link>
@@ -108,7 +108,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(contactMeRef)}
               >
-                Contact Us
+                <Link to="/accomodations">Contact Us</Link>
               </div>
               <div
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
@@ -143,7 +143,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
             data-aos-duration="1200"
           >
             <span onClick={() => scrollToSection(membershipRef)}>
-              Membership
+              <Link to="/accomodations"> Membership</Link>
             </span>
           </div>
           <div
@@ -162,7 +162,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
             data-aos-duration="1200"
           >
             <span onClick={() => scrollToSection(contactMeRef)}>
-              Contact Us
+              <Link to="/accomodations"> Contact Us</Link>
             </span>
           </div>
         </div>

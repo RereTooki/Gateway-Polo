@@ -1,7 +1,12 @@
 import React from "react";
+import Coming from "./Coming";
 
 const Accomodations = () => {
-  return <div>Accomodations</div>;
+  return (
+    <>
+      <Coming />
+    </>
+  );
 };
 
 export default Accomodations;
