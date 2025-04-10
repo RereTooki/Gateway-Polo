@@ -56,11 +56,19 @@ const AboutIntro = () => {
             for equestrian pursuits. Our club is committed to upholding the rich
             traditions of polo while embracing innovation and inclusivity.
           </div>
-          <div className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] text-greens">
+          <div
+            className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] text-greens"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             Join The Experience
           </div>{" "}
         </div>
-        <div className="sborder-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh">
+        <div
+          className="sborder-4 w-full max-h-[80vh] lg:max-h-none lg:w-1/2 lg:min-h-dvh xl:h-dvh"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
           {" "}
           <picture className="">
             <source className="" media="(max-width: 750px)" srcSet={aboutUs1} />
@@ -73,11 +81,17 @@ const AboutIntro = () => {
         </div>
       </div>
       <div className="sborder-4 border-black py-12 xxl:py-16 px-4 tab:px-8 xxl:px-16">
-        <div className="sborder-4 flex flex-col lg:gap-4 lg:flex-row lg:flex-wrap justify-center">
+        <div
+          className="sborder-4 flex flex-col lg:gap-4 lg:flex-row lg:flex-wrap justify-center"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           {images.map((src, index) => (
             <div
               key={index}
               className="w-full h-[290px] lg:h-[280px] lg:h-auto lg:w-[48.5%] xl:w-[32.1%] mb-6 xmd:mb-8 lg:mb-0 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] sborder-2"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               <img
                 src={src}
@@ -88,13 +102,21 @@ const AboutIntro = () => {
           ))}
         </div>
         <div className="sborder-2 border-black flex flex-col gap-6 xmd:gap-8 items-center justify-center lg:items-end lg:mt-8">
-          <div className="flex flex-row sborder-2 h-full gap-2 w-fit text-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+          <div
+            className="flex flex-row sborder-2 h-full gap-2 w-fit text-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
             <div className="sborder-2 animate-pulse">View More</div>
             <div className="sborder-2 animate-pulse h-[30pxs] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mt-2 relative bottom-[4px]">
               <img className="w-full h-full" src={arrRight} alt="Right Arrow" />
             </div>
           </div>
-          <div className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] text-greens">
+          <div
+            className="border-[1px] w-fit self-center p-4 lg:px-6 rounded-md border-[#B79D52] font-medium text-xs lg:text-base drop-shadow-2xl selection:text-white selection:bg-black/80 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] text-greens"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             Book Your Visit Now
           </div>
         </div>

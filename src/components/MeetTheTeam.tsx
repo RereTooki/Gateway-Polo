@@ -75,7 +75,11 @@ const MeetTheTeam = () => {
   return (
     <>
       <div className="bg-greens sh-screen text-greens px-4 tab:px-8 xxl:px-16 py-12 xxl:py-16 ">
-        <div className="gap-6 xl:gap-10s flex flex-col items-center text-white">
+        <div
+          className="gap-6 xl:gap-10s flex flex-col items-center text-white"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <div className="sborder-4 font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:px-0 px-8 pb-8s">
             <h2>Meet The Gateway Team</h2>
           </div>
@@ -86,7 +90,11 @@ const MeetTheTeam = () => {
             </p>
           </div>
         </div>
-        <div className="overflow-x-scroll whitespace-nowrap snap-x snap-mandatory px-4 pb-4 bg-green-950s my-12 tab:mb-16 ">
+        <div
+          className="overflow-x-scroll whitespace-nowrap snap-x snap-mandatory px-4 pb-4 bg-green-950s my-12 tab:mb-16 "
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <div className="flex gap-4 w-max ">
             {team.map((member, index) => (
               <div
@@ -112,12 +120,20 @@ const MeetTheTeam = () => {
             ))}
           </div>
         </div>
-        <div className="sborder-2 gap-6 xl:gap-10s flex flex-col items-center text-white mb-10">
+        <div
+          className="sborder-2 gap-6 xl:gap-10s flex flex-col items-center text-white mb-10"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <div className="sborder-4 font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:px-0 px-8 pb-8s">
             <h2>Partners</h2>
           </div>
         </div>
-        <section className="bg-green-950s px-4 tabImg:flex flex-col items-center sborder-2 mb-12 tab:mb-16">
+        <section
+          className="bg-green-950s px-4 tabImg:flex flex-col items-center sborder-2 mb-12 tab:mb-16"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <div className="overflow-x-auto whitespace-nowrap snap-x snap-mandatory">
             <div className="flex items-center gap-6 w-max">
               {partners.map((partner, index) => (
