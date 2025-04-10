@@ -7,22 +7,22 @@ const ComingSoon = () => {
     <>
       <div
         className="sborder-4 border-black spt-16 flex flex-col items-center px-4  lg:px-10 gap-6 text-greens "
-        data-aoss="fade-up"
-        data-aoss-duration="1200"
+        data-aos="fade-up"
+        data-aos-duration="1200"
       >
-        <div className="sborder-4 bg-greens w-full px-8 py-12 text-white flex flex-col items-center justify-center gap-2 lg:ap-6">
+        <div className="sborder-4 bg-greens w-full px-8 spy-12 text-white flex flex-col items-center justify-center gap-2 lg:ap-6">
           <div className="sborder-2 flex flex-col items-center gap-6 text-center mb-4 lg:mb-0 ">
             <h3
-              className="text-xl tab:text-2xl xl:text-3xl font-medium"
-              data-aoss="fade-up"
-              data-aoss-duration="1200"
+              className="font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               Our Application is Coming Soon
             </h3>
             <p
               className="text-xs font-medium lg:text-sm lg:w-[70%]"
-              data-aoss="fade-up"
-              data-aoss-duration="1200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               We are still building. Subscribe for updates and 20% off when we
               launch. No spam, We promise!
@@ -30,8 +30,8 @@ const ComingSoon = () => {
           </div>
           <div
             className="sborder-2 flex flex-row items-center gap-2 text-center w-full lg:w-[70%]"
-            data-aoss="fade-up"
-            data-aoss-duration="1200"
+            data-aos="fade-up"
+            data-aos-duration="1200"
           >
             {/* Email Input and Button */}
 
@@ -46,8 +46,8 @@ const ComingSoon = () => {
           </div>
           <div
             className="sborder-2 flex flex-row items-center gap-2 text-center w-full lg:w-[70%]"
-            data-aoss="fade-up"
-            data-aoss-duration="1200"
+            data-aos="fade-up"
+            data-aos-duration="1200"
           >
             {/* Apple And PlayStore */}
             <div className=" w-full h-[50px] lg:h-[55px] sborder-2">
@@ -60,7 +60,7 @@ const ComingSoon = () => {
                   />
                 </div>
                 <div className="flex flex-col sborder-2 text-xs  text-start">
-                  <p>Download on the</p>
+                  <p className="hidden xmd:block">Download on the</p>
                   <p className="font-semibold sborder-2 ">App Store</p>
                 </div>
               </button>
@@ -75,7 +75,7 @@ const ComingSoon = () => {
                   />
                 </div>
                 <div className="flex flex-col sborder-2 text-xs  text-start">
-                  <p>Get It On</p>
+                  <p className="hidden xmd:block">Get It On</p>
                   <p className="font-semibold sborder-2">Google Play</p>
                 </div>
               </button>

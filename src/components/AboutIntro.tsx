@@ -24,10 +24,25 @@ const AboutIntro = () => {
       <div className="border-b-4 border-double border-black px-4 tab:px-8 xxl:px-16 py-12 xxl:py-16 flex flex-col lg:flex-row gap-8 xl:gap-10 items-center justify-centers text-greens mt-[70px]">
         {" "}
         <div className="flex flex-col gap-8 lg:gap-6 xl:gap-12 sborder-2 lg:w-1/2 lg:min-h-dvh xl:h-dvh">
-          <div className="sborder-4 font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:text-start lg:px-0 lg:w-[80%] px-8 pb-8s">
+          <div
+            className="sborder-4 font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:text-start lg:px-0 lg:w-[80%] px-8 pb-8s hidden lg:block"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
             <h2>About Gateway Polo & Racecourse</h2>
           </div>
-          <div className="sborder-2 text-justify tab:text-xl lg:text-base xl:text-lg pb-8s underline underline-offset-4 decoration-[0.5px] decoration-greens/80 decoration-dotted lg:no-underline lg:tracking-tight lg:font-medium">
+          <div
+            className="sborder-4 font-medium  text-2xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:text-start lg:px-0 lg:w-[80%] px-8 pb-8s lg:hidden"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <h2>About Gateway Polo & Racecourse</h2>
+          </div>
+          <div
+            className="sborder-2 text-justify tab:text-xl lg:text-base xl:text-lg pb-8s underline underline-offset-4 decoration-[0.5px] decoration-greens/80 decoration-dotted lg:no-underline lg:tracking-tight lg:font-medium"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             Welcome to Gateway Polo and Racecourse, an exclusive membership club
             poised to become the premier destination for polo and equestrian
             enthusiasts in Ogun State, Nigeria.<br></br>

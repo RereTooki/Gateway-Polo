@@ -3,6 +3,7 @@ import AboutIntro from "./AboutIntro";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
 import MeetTheTeam from "./MeetTheTeam";
+import ContactUs from "./ContactUs";
 
 const AboutUs = () => {
   // Create refs for each section
@@ -29,6 +30,9 @@ const AboutUs = () => {
         </div>
         <div className=" select-none h-full">
           <MeetTheTeam />
+        </div>
+        <div className=" select-none h-full">
+          <ContactUs />
         </div>
       </div>
     </>

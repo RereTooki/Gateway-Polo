@@ -86,7 +86,7 @@ const MeetTheTeam = () => {
             </p>
           </div>
         </div>
-        <div className="overflow-x-scroll whitespace-nowrap snap-x snap-mandatory px-4 pb-4 bg-green-950s my-12 ">
+        <div className="overflow-x-scroll whitespace-nowrap snap-x snap-mandatory px-4 pb-4 bg-green-950s my-12 tab:mb-16 ">
           <div className="flex gap-4 w-max ">
             {team.map((member, index) => (
               <div
@@ -117,7 +117,7 @@ const MeetTheTeam = () => {
             <h2>Partners</h2>
           </div>
         </div>
-        <section className="bg-green-950s px-4 lg:flex flex-col items-center">
+        <section className="bg-green-950s px-4 tabImg:flex flex-col items-center sborder-2 mb-12 tab:mb-16">
           <div className="overflow-x-auto whitespace-nowrap snap-x snap-mandatory">
             <div className="flex items-center gap-6 w-max">
               {partners.map((partner, index) => (
