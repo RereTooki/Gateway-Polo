@@ -21,7 +21,7 @@ const AboutIntro = () => {
   return (
     <>
       {" "}
-      <div className="border-b-4 border-double border-black px-4 tab:px-8 xxl:px-16 py-12 xxl:py-16 flex flex-col lg:flex-row gap-8 xl:gap-10 items-center justify-centers text-greens mt-[70px]">
+      <div className="border-b-4 border-double border-black px-4 tab:px-8 xxl:px-16 py-10 lg:py-12 xxl:py- flex flex-col lg:flex-row gap-8 xl:gap-10 items-center justify-centers text-greens mt-[70px]">
         {" "}
         <div className="flex flex-col gap-8 lg:gap-6 xl:gap-12 sborder-2 lg:w-1/2 lg:min-h-dvh xl:h-dvh">
           <div
