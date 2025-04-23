@@ -91,7 +91,7 @@ const AccIntro = () => {
       <section className="border-b-4 border-double border-black px-4 tab:px-8 xxl:px-16 py-10 lg:py-12 xxl:py-  gap-8 xl:gap-10  items-center justify-centers text-greens mt-[70px] space-y-8 xl:space-y-10 ">
         <div
           className="sborder-4 font-medium  text-3xl tab:text-4xl lg:text-3xl xl:text-4xl text-center lg:mb-12 text-greens"
-          data-aoss="fade-up"
+          data-aos="fade-down"
           data-aos-duration="1200"
         >
           <h2>Accomodations</h2>
@@ -99,7 +99,11 @@ const AccIntro = () => {
         {/* Top Grid (Map + Hero Image) */}
         <div className="grid  gap-8 xl:gap-10 tab:grid-cols-2 ssborder-2">
           {/* Map Block */}
-          <div className="bg-green-900 text-white p-4 rounded-xl space-y-1">
+          <div
+            className="bg-green-900 text-white p-4 rounded-xl space-y-1"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          >
             <img
               src={accIntro1}
               alt="Map"
@@ -115,11 +119,17 @@ const AccIntro = () => {
             src={accIntro2}
             alt="Chalet"
             className="w-full h-full object-cover rounded-xl"
+            data-aos="fade-right"
+            data-aos-duration="1200"
           />
         </div>
 
         {/* Description */}
-        <p className="tab:text-lg leading-relaxed text-greens">
+        <p
+          className="tab:text-lg leading-relaxed text-greens"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           Experience the charm of our luxurious chalets at Gateway Racecourse,
           offering the perfect blend of comfort and elegance. Nestled in a
           serene environment, our spacious accommodations provide an ideal
@@ -134,15 +144,19 @@ const AccIntro = () => {
             src={accIntro3}
             alt="Chalet exterior"
             className="w-full h-full object-cover rounded-xl"
+            data-aos="fade-left"
+            data-aos-duration="1200"
           />
 
           {/* Calendar Block */}
-          <Calendar />
+          <div data-aos="fade-right" data-aos-duration="1200">
+            <Calendar />
+          </div>
         </div>
       </section>
-      <div className="text-greens border-b-4 border-double border-black  px-4 tab:px-8 xxl:px-16 py-10 lg:py-12 space-y-8 xl:space-y-10">
+      <div className="text-greens sborder-b-4 border-double border-black  px-4 tab:px-8 xxl:px-16 py-10 lg:py-12 space-y-8 xl:space-y-10">
         {/* Chalet Details */}
-        <div className="border-4">
+        <div className="sborder-4" data-aos="fade-up" data-aos-duration="1200">
           <h3 className="text-3xl tab:text-4xl lg:text-3xl xl:text-4xl font-semibold mb-6 text-center">
             The Chalet in details
           </h3>
@@ -157,12 +171,20 @@ const AccIntro = () => {
           </ul>
         </div>
         {/* Ground Floor */}
-        <section className="border-2">
-          <h2 className="text-2xl tab:text-3xl lg:text-2xl xl:text-3xl font-semibold mb-4">
+        <section className="sborder-2">
+          <h2
+            className="text-2xl tab:text-3xl lg:text-2xl xl:text-3xl font-semibold mb-4"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             Ground floor
           </h2>
           <div className="flex flex-col tab:flex-row tab:items-start gap-8 xl:gap-10 ">
-            <div className="relative w-full tab:w-1/2  border-4 tab:h-[270px] lg:h-[250px] xl:h-auto">
+            <div
+              className="relative w-full tab:w-1/2  sborder-4 tab:h-[270px] lg:h-[250px] xl:h-auto"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+            >
               <img
                 src={accIntro4}
                 alt="Ground floor"
@@ -176,8 +198,12 @@ const AccIntro = () => {
               </button>
             </div>
 
-            <ul className="border-2 h-full text-sm md:text-base lg:text-lg space-y-2 xmd:space-y-4 lg:space-y-6 xl:space-y-16 tab:w-1/2 xl:self-center">
-              <div className="flex flex-row border-2 gap-2 items-center">
+            <ul
+              className="sborder-2 h-full text-sm md:text-base lg:text-lg space-y-2 xmd:space-y-4 lg:space-y-6 xl:space-y-16 tab:w-1/2 xl:self-center"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="flex flex-row sborder-2 gap-2 items-center">
                 <div className="sborder-2 h-fit ">
                   <CiForkAndKnife className="h-8 w-8" color="#B79D52" />
                 </div>
@@ -186,7 +212,7 @@ const AccIntro = () => {
                   with an American kitchen equipped with a central island.
                 </li>
               </div>
-              <div className="flex flex-row border-2 gap-2 items-center">
+              <div className="flex flex-row sborder-2 gap-2 items-center">
                 <div className="sborder-2 h-fit ">
                   <MdLocalLaundryService className="h-8 w-8" color="#B79D52" />
                 </div>
@@ -195,7 +221,7 @@ const AccIntro = () => {
                   bathroom and separate shower + toilet.
                 </li>
               </div>
-              <div className="flex flex-row border-2 gap-2 items-center">
+              <div className="flex flex-row sborder-2 gap-2 items-center">
                 <div className="sborder-2 h-fit ">
                   <MdBedroomParent className="h-8 w-8" color="#B79D52" />
                 </div>
@@ -210,12 +236,20 @@ const AccIntro = () => {
         </section>
 
         {/* Upstairs */}
-        <section className="border-2">
-          <h2 className="text-2xl tab:text-3xl lg:text-2xl xl:text-3xl font-semibold mb-4">
+        <section className="sborder-2">
+          <h2
+            className="text-2xl tab:text-3xl lg:text-2xl xl:text-3xl font-semibold mb-4"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             Upstairs
           </h2>
           <div className="flex flex-col tab:flex-row tab:items-start gap-8 xl:gap-10 ">
-            <div className="relative w-full tab:w-1/2  border-4 tab:h-[270px] lg:h-[250px] xl:h-auto">
+            <div
+              className="relative w-full tab:w-1/2  sborder-4 tab:h-[270px] lg:h-[250px] xl:h-auto"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+            >
               <img
                 src={accIntro5}
                 alt="Ground floor"
@@ -229,8 +263,12 @@ const AccIntro = () => {
               </button>
             </div>
 
-            <ul className="border-2 h-full text-sm md:text-base lg:text-lg space-y-2 xmd:space-y-4 lg:space-y-6 xl:space-y-16 tab:w-1/2 xl:self-center">
-              <div className="flex flex-row border-2 gap-2 items-center">
+            <ul
+              className="sborder-2 h-full text-sm md:text-base lg:text-lg space-y-2 xmd:space-y-4 lg:space-y-6 xl:space-y-16 tab:w-1/2 xl:self-center"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="flex flex-row sborder-2 gap-2 items-center">
                 <div className="sborder-2 h-fit ">
                   <MdLocalLaundryService className="h-8 w-8" color="#B79D52" />
                 </div>
@@ -240,7 +278,7 @@ const AccIntro = () => {
                   bunk beds and toys.
                 </li>
               </div>
-              <div className="flex flex-row border-2 gap-2 items-center">
+              <div className="flex flex-row sborder-2 gap-2 items-center">
                 <div className="sborder-2 h-fit ">
                   <FaShower className="h-8 w-8" color="#B79D52" />
                 </div>
@@ -249,7 +287,7 @@ const AccIntro = () => {
                   separate shower.
                 </li>
               </div>
-              <div className="flex flex-row border-2 gap-2 items-center">
+              <div className="flex flex-row sborder-2 gap-2 items-center">
                 <div className="sborder-2 h-fit ">
                   <FaToilet className="h-8 w-8" color="#B79D52" />
                 </div>
@@ -264,10 +302,18 @@ const AccIntro = () => {
 
         {/* Equipments */}
         <section>
-          <h2 className="text-3xl tab:text-4xl lg:text-3xl xl:text-4xl font-semibold mb-6 text-center s">
+          <h2
+            className="text-3xl tab:text-4xl lg:text-3xl xl:text-4xl font-semibold mb-6 text-center "
+            data-aos="fade-down"
+            data-aos-duration="1200"
+          >
             Equipments
           </h2>
-          <ul className="space-y-2 text-sm md:text-base lg:text-lg">
+          <ul
+            className="space-y-2 text-sm md:text-base lg:text-lg"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <li className="flex items-center gap-2 lg:gap-4">
               <FaWifi className=" w-4 h-4" color="#B79D52" /> WIFI
             </li>
@@ -281,11 +327,15 @@ const AccIntro = () => {
           </ul>
         </section>
       </div>
-      <div className="text-greens border-4 border-double border-black  px-4 tab:px-8 xxl:px-16 pb-10 lg:pb-12 space-y-8 xl:space-y-10">
+      <div className="text-greens border-b-4 border-double border-black  px-4 tab:px-8 xxl:px-16 pb-10 lg:pb-12 space-y-8 xl:space-y-10">
         <div className="space-y-10">
           {features.map((section) => (
             <div key={section.title}>
-              <h2 className="text-lg md:text-xl font-semibold text-[#0c3d1e] mb-4">
+              <h2
+                className="text-lg md:text-xl font-semibold text-[#0c3d1e] mb-4"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
                 {section.title}
               </h2>
               <div className="flex flex-wrap gap-3">
@@ -293,6 +343,8 @@ const AccIntro = () => {
                   <span
                     key={index}
                     className="px-4 py-1 border border-[#0c3d1e] text-[#0c3d1e] rounded-md text-sm md:text-base"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
                   >
                     {item}
                   </span>

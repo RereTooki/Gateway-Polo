@@ -3,6 +3,7 @@ import Coming from "./Coming";
 import AccIntro from "./AccIntro";
 import { useRef } from "react";
 import Navbar from "./Navbar";
+import ContactUs from "./ContactUs";
 
 const Accomodations = () => {
   // Create refs for each section
@@ -26,6 +27,9 @@ const Accomodations = () => {
         </div>
         <div className=" select-none h-full">
           <AccIntro />{" "}
+        </div>
+        <div className=" select-none h-full">
+          <ContactUs />
         </div>
       </div>
     </>

@@ -3,6 +3,7 @@ import Homepage from "./components/Homepage";
 import JoinUs from "./components/JoinUs";
 import Accomodations from "./components/Accomodations";
 import AboutUs from "./components/AboutUs";
+import ContactUsFull from "./components/ContactUsFull";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/accomodations", // about Page
     element: <Accomodations />,
+  },
+  {
+    path: "/contactUs", // about Page
+    element: <ContactUsFull />,
   },
   // {
   //   path: "/services", // services Page
