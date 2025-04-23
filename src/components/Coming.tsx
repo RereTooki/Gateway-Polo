@@ -35,7 +35,7 @@ const Coming = () => {
             <span className="italic underline underline-offset-4 ">
               <a
                 className=""
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdHYyeiA1x2Kgpbbo3T-zFl_h29FaU_aQfis8JyAsCV6CSOLg/viewform?usp=header"
+                href="https://docs.google.com/spreadsheets/d/11dvFFWiJrS2Wzvrty0yU_r7sEbUT5JiUmij7v3TfBDo/edit?usp=sharing"
                 target="_blank"
               >
                 This Form{" "}

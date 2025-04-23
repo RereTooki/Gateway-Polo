@@ -45,7 +45,8 @@ const team: TeamMember[] = [
     name: "Kingsley Oluwatomisin",
     title: "Chief Operations Officer",
     image: team5,
-    linkedin: "#",
+    linkedin:
+      "https://www.linkedin.com/m/profile/in/tomisin-williams-19396b176",
   },
   {
     name: "Barr. Adeyemi Abraham",
