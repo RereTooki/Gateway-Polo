@@ -58,7 +58,7 @@ const ContactUsFull = () => {
           {/* Dark overlay for better readability */}
           <div className="absolute inset-0 bg-black/50"></div>{" "}
         </div>
-        <div className="relative flex flex-col divide-y divide-white">
+        <div className="relative flex flex-col divide-y divide-white sborder-2 lg:relative top-6">
           <h1 className="text-6xl tab:text-8xl">Contact Us</h1>
 
           {/* New Additions */}
