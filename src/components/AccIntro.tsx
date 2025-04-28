@@ -19,6 +19,8 @@ import accIntro2 from "../assets/images/accIntro2.png";
 import accIntro3 from "../assets/images/accIntro3.png";
 import accIntro4 from "../assets/images/accIntro4.jpg";
 import accIntro5 from "../assets/images/accIntro5.jpg";
+import acc4 from "../assets/images/acc4.jpeg";
+import acc1 from "../assets/images/acc1.jpeg";
 
 const features = [
   {
@@ -186,16 +188,16 @@ const AccIntro = () => {
               data-aos-duration="1200"
             >
               <img
-                src={accIntro4}
+                src={acc4}
                 alt="Ground floor"
                 className="rounded-xl w-full max-h-[350px] h-full object-cover"
               />
-              <button className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow">
+              {/* <button className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow">
                 <FaArrowLeft className="" />
               </button>
               <button className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow">
                 <FaArrowRight className="" />
-              </button>
+              </button> */}
             </div>
 
             <ul
@@ -251,16 +253,16 @@ const AccIntro = () => {
               data-aos-duration="1200"
             >
               <img
-                src={accIntro5}
+                src={acc1}
                 alt="Ground floor"
                 className="rounded-xl w-full max-h-[350px] h-full object-cover"
               />
-              <button className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow">
+              {/* <button className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow">
                 <FaArrowLeft className="" />
               </button>
               <button className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow">
                 <FaArrowRight className="" />
-              </button>
+              </button> */}
             </div>
 
             <ul

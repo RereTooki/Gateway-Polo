@@ -36,7 +36,7 @@ const ContactUs = () => {
   return (
     <>
       <div
-        className="sborder-4  border-double border-black pt-24 pb-8 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16"
+        className="border-t-4 border-double border-black pt-24 pb-8 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start px-4 lg:px-12 gap-6 text-greens text-center lg:gap-16"
         data-aos="fade-up"
         data-aos-duration="1200"
       >

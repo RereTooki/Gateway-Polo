@@ -4,6 +4,7 @@ import JoinUs from "./components/JoinUs";
 import Accomodations from "./components/Accomodations";
 import AboutUs from "./components/AboutUs";
 import ContactUsFull from "./components/ContactUsFull";
+import Academy from "./components/Academy";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutUs", // about Page
     element: <AboutUs />,
+  },
+  {
+    path: "/training", // about Page
+    element: <Academy />,
   },
   {
     path: "/accomodations", // about Page
