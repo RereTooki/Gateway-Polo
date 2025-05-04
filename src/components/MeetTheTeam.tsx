@@ -42,7 +42,7 @@ const team: TeamMember[] = [
   },
 
   {
-    name: "Kingsley Oluwatomisin",
+    name: "Oluwatomisin Williams",
     title: "Chief Operations Officer",
     image: team5,
     linkedin:
