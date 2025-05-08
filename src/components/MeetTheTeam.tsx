@@ -61,7 +61,7 @@ const team: TeamMember[] = [
     linkedin: "#",
   },
   {
-    name: "Princess Adepeju",
+    name: "Princess Olapeju Shote-Osibodu",
     title: "Executive Director",
     image: team8,
     linkedin: "#",
