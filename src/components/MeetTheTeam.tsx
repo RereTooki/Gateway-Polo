@@ -7,6 +7,8 @@ import team5 from "../assets/images/team5.png";
 import team6 from "../assets/images/team6.png";
 import team7 from "../assets/images/team7.png";
 import team8 from "../assets/images/team8.png";
+import team9 from "../assets/images/team9.png";
+import bg1 from "../assets/images/bg1.png";
 import partner1 from "../assets/icons/partner1.svg";
 import partner2 from "../assets/icons/partner2.svg";
 import partner3 from "../assets/icons/partner3.svg";
@@ -22,6 +24,12 @@ type TeamMember = {
 };
 
 const team: TeamMember[] = [
+  {
+    name: "Steve Ogunmekan",
+    title: "CEO",
+    image: team9,
+    linkedin: "#",
+  },
   {
     name: "Olawale Folami",
     title: "Executive Director",
@@ -48,6 +56,7 @@ const team: TeamMember[] = [
     linkedin:
       "https://www.linkedin.com/m/profile/in/tomisin-williams-19396b176",
   },
+
   {
     name: "Barr. Adeyemi Abraham",
     title: "Secretary/Legal Adviser",
@@ -112,12 +121,24 @@ const MeetTheTeam = () => {
                 key={index}
                 className="snap-start min-w-[250px] max-w-[250px] bg-white rounded-xl overflow-hidden shadow-md "
               >
-                <img
+                {/* <img
                   src={member.image}
                   alt={member.name}
                   className="w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
-                />
-                <div className="p-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+                /> */}
+                <div className="relative">
+                  <div className="sborder-4 border-black bg-[#B59C5A] w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+                    {" "}
+                  </div>
+                  <div className="absolute sborder-4 w-full top-0">
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+                    />
+                  </div>
+                </div>
+                <div className="p-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] mt-64s">
                   <h3 className="font-semibold text-lg">{member.name}</h3>
                   <p className="text-sm text-gray-700">{member.title}</p>
                   <a
