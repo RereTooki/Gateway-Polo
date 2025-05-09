@@ -127,14 +127,14 @@ const MeetTheTeam = () => {
                   className="w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
                 /> */}
                 <div className="relative">
-                  <div className="sborder-4 border-black bg-[#B59C5A] w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
+                  <div className="border-2 border-white bg-[#B59C5A] w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
                     {" "}
                   </div>
-                  <div className="absolute sborder-4 w-full top-0">
+                  <div className="absolute border-4 border-white w-full top-0 rounded-xl">
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+                      className="w-full h-64 object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] rounded-xl"
                     />
                   </div>
                 </div>
