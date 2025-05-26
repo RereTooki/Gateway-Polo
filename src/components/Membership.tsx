@@ -30,9 +30,7 @@ const Membership = () => {
         <div className=" select-none h-full">
           <MemberIntro />{" "}
         </div>
-        <div className=" select-none h-full">
-          <Training />{" "}
-        </div>
+
         <div className=" select-none h-full">
           <MeetTheTeam />
         </div>
