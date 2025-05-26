@@ -5,6 +5,7 @@ import Accomodations from "./components/Accomodations";
 import AboutUs from "./components/AboutUs";
 import ContactUsFull from "./components/ContactUsFull";
 import Academy from "./components/Academy";
+import Membership from "./components/Membership";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/training", // about Page
     element: <Academy />,
+  },
+  {
+    path: "/membership", // about Page
+    element: <Membership />,
   },
   {
     path: "/accomodations", // about Page
