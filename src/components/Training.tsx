@@ -10,6 +10,7 @@ import aboutMid6 from "../assets/images/aboutMid6.png";
 import arrRight from "../assets/icons/arrRight.svg";
 import training1 from "../assets/images/training1.jpeg";
 import training2 from "../assets/images/training2.jpeg";
+import training3 from "../assets/images/training3.jpeg";
 import race1 from "../assets/images/race1.jpeg";
 import race2 from "../assets/images/race2.jpeg";
 
@@ -78,11 +79,15 @@ const Training = () => {
         >
           {" "}
           <picture className="">
-            <source className="" media="(max-width: 750px)" srcSet={aboutUs1} />
+            <source
+              className=""
+              media="(max-width: 750px)"
+              srcSet={training3}
+            />
             <img
-              src={aboutUs2}
+              src={training3}
               alt=""
-              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] rounded-lg"
             />
           </picture>
         </div>
@@ -101,7 +106,7 @@ const Training = () => {
             <img
               src={aboutUs2}
               alt=""
-              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-fill transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] rounded-md"
+              className="h-full  w-full max-h-[80vh] lg:max-h-none lg:min-h-dvh xl:h-dvh object-contain lg:object-cover transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] rounded-md"
             />
           </picture>
         </div>
