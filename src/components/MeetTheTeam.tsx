@@ -83,9 +83,9 @@ type Partner = {
 };
 
 const partners: Partner[] = [
-  { name: "Bet9ja", logo: partner1 },
-  { name: "FCMB", logo: partner2 },
-  { name: "Rite", logo: partner3 },
+  // { name: "Bet9ja", logo: partner1 },
+  // { name: "FCMB", logo: partner2 },
+  // { name: "Rite", logo: partner3 },
   { name: "Bamboo", logo: partner4 },
   { name: "Nigerian Equestrian Federation", logo: partner5 },
   // Add more logos as needed

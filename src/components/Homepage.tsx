@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../App.css";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
@@ -8,6 +8,7 @@ import WhyUs from "./WhyUs";
 import ComingSoon from "./ComingSoon";
 import FAQ from "./FAQ";
 import ContactUs from "./ContactUs";
+import AlertModal from "./AlertModal";
 
 const Homepage = () => {
   // Create refs for each section
@@ -16,6 +17,12 @@ const Homepage = () => {
   const aboutMeRef = useRef<HTMLDivElement>(null);
   const contactMeRef = useRef<HTMLDivElement>(null);
   const accomodationsRef = useRef<HTMLDivElement>(null);
+
+  const [isOpen, setIsOpen] = useState(true);
+  useEffect(() => {
+    setIsOpen(true);
+  }, []);
+  const [enabled, setEnabled] = useState(false);
   return (
     <>
       {" "}
@@ -32,6 +39,7 @@ const Homepage = () => {
         <div ref={introRef} className="scroll select-none h-full">
           <Landing />{" "}
         </div>
+        <AlertModal isOpen={isOpen} onClose={() => setIsOpen(false)} />
       </div>
       {/* <div ref={aboutMeRef} className="scroll ">
         <AboutUs />

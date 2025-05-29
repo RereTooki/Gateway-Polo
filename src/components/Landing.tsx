@@ -46,9 +46,9 @@ const Landing = () => {
           </div>
           <div className="flex justify-evenly items-center gap-4 sborder-4 w-full">
             {" "}
-            <Link to="/joinUs">
+            <Link to="/aboutUs">
               <div className="w-fit whitespace-nowrap py-[15px] lg:py-4 px-[18px] rounded-full h-fit font-medium text-white bg-greens transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] text-xs lg:px-8 xl:px-10 tab:text-sm xl:text-xl w-1/2 max-w-[152px] lg:max-w-none lg:w-auto w3-animate-zoom">
-                Join The Club
+                About Us
               </div>
             </Link>
           </div>

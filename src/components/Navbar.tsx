@@ -116,12 +116,12 @@ const Navbar: React.FC<NavigationBarProps> = ({
               >
                 <Link to="/contactUs">Contact Us</Link>
               </div>
-              <div
+              {/* <div
                 className="w3-animate-rightNav dark:text-whitessss  decoration-black ease-in-out duration-500 hover:scale-[1.05]  border-b-2 rounded-sm border-black/70 dark:border-white "
                 onClick={() => scrollToSection(contactMeRef)}
               >
                 <Link to="/joinUs">Join Now</Link>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -186,7 +186,7 @@ const Navbar: React.FC<NavigationBarProps> = ({
           data-aos="fade-down"
           data-aos-duration="1200"
         >
-          <Link to="/joinUs">Join Now</Link>
+          <Link to="/aboutUs">About Us</Link>
         </div>
       </div>
     </>
