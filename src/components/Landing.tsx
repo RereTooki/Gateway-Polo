@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import intro from "../assets/videos/intro.mp4";
+import intro from "../assets/videos/newintro.mp4";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
