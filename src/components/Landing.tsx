@@ -13,7 +13,6 @@ const Landing = () => {
             src={intro}
             loop
             autoPlay
-            muted
             className="w-full h-full object-cover"
           />
           {/* Dark overlay for better readability */}
