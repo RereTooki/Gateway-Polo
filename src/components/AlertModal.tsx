@@ -47,7 +47,7 @@ const AlertModal: React.FC<AlertModalProps> = ({ isOpen, onClose }) => {
               as="h3"
               className="text-bases/7 font-semibold text-2xl text-gray-700 hover:text-gray-900 flex items-center justify-center"
             >
-              <span className="underline underline-offset-4 text-center border-2 poppinsFonts">
+              <span className="underline underline-offset-4 text-center sborder-2 poppinsFonts">
                 Stay Updated!
               </span>{" "}
             </Dialog.Title>
